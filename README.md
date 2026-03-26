@@ -51,3 +51,5 @@ Revenue Protection: Identifies "Unmatched" patients (Clinical Deserts) to calcul
 Provider Retention: Prevents turnover by automating load-balancing and flagging burnout before it happens.
 
 Regulatory Safety: Hard-coded state licensing checks ensure 100% compliance with telehealth laws.
+
+![Burnout Heatmap](provider_burnout_heatmap.png)
