@@ -1,0 +1,26 @@
+id,name,specialties,insurance_accepted,available_slots,licensed_states
+T-100,"Dr. Belle Richter, PsyD","Anxiety, Stress Management, Specialized Cuddling","Blue Shield, Cigna, UnitedHealthcare","Morning, Afternoon","CA, OR, WA, AZ, NV"
+T-101,Provider 2,"Trauma, LGBTQ+, CBT, DBT","Aetna, Cigna, Kaiser, Blue Shield","Evening, Afternoon, Morning","AZ, WA"
+T-102,Provider 3,"Anxiety, Family Therapy, CBT, DBT","Cigna, Blue Shield","Afternoon, Morning, Evening",CA
+T-103,Provider 4,"CBT, Depression, Eating Disorders, Trauma","Cigna, Aetna, Kaiser",Afternoon,NV
+T-104,Provider 5,"Family Therapy, Trauma, DBT","UnitedHealthcare, Cigna, Aetna","Evening, Afternoon","CA, AZ, NV"
+T-105,Provider 6,"Eating Disorders, LGBTQ+, Depression","Kaiser, UnitedHealthcare, Aetna, Cigna","Afternoon, Morning, Evening",CA
+T-106,Provider 7,"Family Therapy, LGBTQ+, Trauma","Aetna, Blue Shield, Kaiser",Evening,CA
+T-107,Provider 8,"Anxiety, LGBTQ+","Kaiser, UnitedHealthcare, Blue Shield, Cigna","Evening, Afternoon",CA
+T-108,Provider 9,"Family Therapy, Trauma, LGBTQ+, Eating Disorders","Blue Shield, Aetna, Kaiser",Evening,WA
+T-109,Provider 10,"Family Therapy, Trauma","Kaiser, Cigna, Blue Shield","Morning, Afternoon, Evening",WA
+T-110,Provider 11,"LGBTQ+, Eating Disorders, Family Therapy, CBT","Cigna, Kaiser, UnitedHealthcare, Aetna","Morning, Evening",NV
+T-111,Provider 12,"Trauma, Anxiety, Family Therapy","Kaiser, Cigna, Aetna","Afternoon, Morning, Evening",CA
+T-112,Provider 13,"Depression, Trauma, DBT","Aetna, Kaiser, Cigna, Blue Shield",Afternoon,OR
+T-113,Provider 14,"Anxiety, CBT, Eating Disorders, LGBTQ+","Blue Shield, Aetna","Morning, Afternoon, Evening","AZ, CA"
+T-114,Provider 15,"DBT, LGBTQ+, Eating Disorders","Aetna, UnitedHealthcare","Afternoon, Morning",CA
+T-115,Provider 16,"Anxiety, CBT, Depression","Aetna, UnitedHealthcare, Cigna, Kaiser","Afternoon, Evening, Morning","WA, OR, AZ"
+T-116,Provider 17,"LGBTQ+, Eating Disorders, Family Therapy","UnitedHealthcare, Blue Shield, Aetna","Morning, Evening","AZ, CA, WA"
+T-117,Provider 18,"Family Therapy, Anxiety, LGBTQ+","Cigna, Blue Shield, UnitedHealthcare, Aetna","Evening, Morning","WA, NV, OR"
+T-118,Provider 19,"Trauma, Depression, Anxiety, Family Therapy","Blue Shield, Kaiser, Aetna, UnitedHealthcare","Afternoon, Morning, Evening",OR
+T-119,Provider 20,"Eating Disorders, Anxiety, CBT","Cigna, UnitedHealthcare, Kaiser, Blue Shield","Morning, Afternoon, Evening","OR, CA"
+T-120,Provider 21,"Depression, Trauma, LGBTQ+, Eating Disorders","UnitedHealthcare, Cigna, Blue Shield","Morning, Afternoon, Evening","AZ, OR"
+T-121,Provider 22,"Trauma, CBT","Cigna, Aetna","Afternoon, Evening, Morning","WA, CA, OR"
+T-122,Provider 23,"Family Therapy, DBT, Anxiety, Depression","UnitedHealthcare, Aetna, Blue Shield",Afternoon,"AZ, OR"
+T-123,Provider 24,"Anxiety, Eating Disorders","Blue Shield, UnitedHealthcare","Evening, Morning, Afternoon",WA
+T-124,Provider 25,"Family Therapy, LGBTQ+","Blue Shield, Aetna","Evening, Afternoon","AZ, WA"

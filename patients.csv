@@ -1,0 +1,501 @@
+id,name,needs,insurance,pref_time,state
+P-1000,Client 1,Depression,Kaiser,Evening,CA
+P-1001,Client 2,"LGBTQ+, Depression",UnitedHealthcare,Afternoon,CA
+P-1002,Client 3,Eating Disorders,Kaiser,Evening,WA
+P-1003,Client 4,"Anxiety, Family Therapy",UnitedHealthcare,Afternoon,OR
+P-1004,Client 5,Anxiety,Kaiser,Afternoon,CA
+P-1005,Client 6,"CBT, Trauma",Blue Shield,Afternoon,WA
+P-1006,Client 7,Depression,Blue Shield,Evening,AZ
+P-1007,Client 8,Depression,Kaiser,Evening,AZ
+P-1008,Client 9,Eating Disorders,Blue Shield,Morning,CA
+P-1009,Client 10,Trauma,Aetna,Afternoon,WA
+P-1010,Client 11,"Trauma, LGBTQ+",Cigna,Morning,AZ
+P-1011,Client 12,"Trauma, CBT",Kaiser,Evening,NV
+P-1012,Client 13,Anxiety,Cigna,Morning,NV
+P-1013,Client 14,"LGBTQ+, Depression",Blue Shield,Morning,CA
+P-1014,Client 15,Depression,Cigna,Evening,NV
+P-1015,Client 16,Trauma,Blue Shield,Afternoon,NV
+P-1016,Client 17,Eating Disorders,Aetna,Morning,NV
+P-1017,Client 18,"LGBTQ+, Trauma",Cigna,Afternoon,WA
+P-1018,Client 19,"Anxiety, Family Therapy",Cigna,Afternoon,WA
+P-1019,Client 20,Trauma,Aetna,Morning,CA
+P-1020,Client 21,"Family Therapy, LGBTQ+",Aetna,Morning,WA
+P-1021,Client 22,Eating Disorders,Cigna,Evening,CA
+P-1022,Client 23,"Trauma, Anxiety",Cigna,Evening,OR
+P-1023,Client 24,"CBT, Family Therapy",Cigna,Afternoon,OR
+P-1024,Client 25,"DBT, Eating Disorders",Blue Shield,Evening,WA
+P-1025,Client 26,Depression,Cigna,Evening,CA
+P-1026,Client 27,"LGBTQ+, Trauma",Kaiser,Morning,AZ
+P-1027,Client 28,"LGBTQ+, Depression",Aetna,Evening,NV
+P-1028,Client 29,DBT,UnitedHealthcare,Morning,NV
+P-1029,Client 30,"Anxiety, LGBTQ+",UnitedHealthcare,Evening,NV
+P-1030,Client 31,Anxiety,Aetna,Evening,OR
+P-1031,Client 32,"Trauma, Depression",UnitedHealthcare,Afternoon,AZ
+P-1032,Client 33,Eating Disorders,Blue Shield,Morning,AZ
+P-1033,Client 34,"Eating Disorders, LGBTQ+",Kaiser,Morning,AZ
+P-1034,Client 35,"Family Therapy, Eating Disorders",UnitedHealthcare,Evening,WA
+P-1035,Client 36,CBT,UnitedHealthcare,Morning,WA
+P-1036,Client 37,LGBTQ+,Cigna,Evening,WA
+P-1037,Client 38,"Family Therapy, Trauma",Cigna,Afternoon,WA
+P-1038,Client 39,"LGBTQ+, CBT",UnitedHealthcare,Morning,CA
+P-1039,Client 40,"Depression, Family Therapy",Cigna,Afternoon,AZ
+P-1040,Client 41,"CBT, DBT",Blue Shield,Afternoon,NV
+P-1041,Client 42,CBT,Kaiser,Afternoon,WA
+P-1042,Client 43,Family Therapy,Blue Shield,Afternoon,WA
+P-1043,Client 44,CBT,Blue Shield,Evening,OR
+P-1044,Client 45,DBT,UnitedHealthcare,Evening,OR
+P-1045,Client 46,Trauma,UnitedHealthcare,Afternoon,NV
+P-1046,Client 47,Anxiety,Aetna,Afternoon,WA
+P-1047,Client 48,"DBT, Depression",Aetna,Afternoon,WA
+P-1048,Client 49,LGBTQ+,Aetna,Evening,OR
+P-1049,Client 50,"Eating Disorders, Family Therapy",Cigna,Evening,CA
+P-1050,Client 51,"CBT, DBT",Blue Shield,Evening,AZ
+P-1051,Client 52,Depression,Aetna,Morning,OR
+P-1052,Client 53,Depression,Blue Shield,Morning,WA
+P-1053,Client 54,CBT,UnitedHealthcare,Evening,OR
+P-1054,Client 55,CBT,Kaiser,Morning,OR
+P-1055,Client 56,Family Therapy,UnitedHealthcare,Evening,CA
+P-1056,Client 57,"Trauma, CBT",Blue Shield,Evening,OR
+P-1057,Client 58,"CBT, Family Therapy",Cigna,Morning,NV
+P-1058,Client 59,"Anxiety, Family Therapy",Blue Shield,Morning,AZ
+P-1059,Client 60,Family Therapy,Aetna,Afternoon,NV
+P-1060,Client 61,"LGBTQ+, Depression",Blue Shield,Afternoon,NV
+P-1061,Client 62,Depression,Cigna,Morning,AZ
+P-1062,Client 63,Anxiety,Kaiser,Evening,CA
+P-1063,Client 64,Depression,Blue Shield,Afternoon,AZ
+P-1064,Client 65,Trauma,Kaiser,Evening,OR
+P-1065,Client 66,Eating Disorders,UnitedHealthcare,Evening,CA
+P-1066,Client 67,"Depression, Family Therapy",Aetna,Afternoon,CA
+P-1067,Client 68,LGBTQ+,UnitedHealthcare,Evening,OR
+P-1068,Client 69,Eating Disorders,Kaiser,Morning,CA
+P-1069,Client 70,"Anxiety, Depression",Blue Shield,Afternoon,CA
+P-1070,Client 71,Eating Disorders,UnitedHealthcare,Afternoon,OR
+P-1071,Client 72,Depression,Kaiser,Morning,OR
+P-1072,Client 73,Family Therapy,Cigna,Evening,NV
+P-1073,Client 74,LGBTQ+,UnitedHealthcare,Evening,CA
+P-1074,Client 75,"Family Therapy, Trauma",Cigna,Evening,CA
+P-1075,Client 76,LGBTQ+,Kaiser,Afternoon,WA
+P-1076,Client 77,"Trauma, LGBTQ+",Blue Shield,Afternoon,OR
+P-1077,Client 78,"CBT, DBT",UnitedHealthcare,Evening,CA
+P-1078,Client 79,Family Therapy,Blue Shield,Morning,AZ
+P-1079,Client 80,LGBTQ+,Aetna,Afternoon,CA
+P-1080,Client 81,LGBTQ+,Aetna,Afternoon,WA
+P-1081,Client 82,"Family Therapy, Anxiety",Aetna,Evening,WA
+P-1082,Client 83,"DBT, CBT",Blue Shield,Morning,NV
+P-1083,Client 84,Family Therapy,Cigna,Evening,WA
+P-1084,Client 85,CBT,Kaiser,Morning,WA
+P-1085,Client 86,"LGBTQ+, Anxiety",Aetna,Evening,OR
+P-1086,Client 87,Family Therapy,Kaiser,Evening,OR
+P-1087,Client 88,"Eating Disorders, Family Therapy",Blue Shield,Evening,WA
+P-1088,Client 89,"LGBTQ+, Trauma",Cigna,Morning,NV
+P-1089,Client 90,"Depression, Family Therapy",UnitedHealthcare,Afternoon,OR
+P-1090,Client 91,Depression,Kaiser,Morning,NV
+P-1091,Client 92,"Eating Disorders, Depression",Aetna,Evening,WA
+P-1092,Client 93,Eating Disorders,UnitedHealthcare,Morning,NV
+P-1093,Client 94,"Depression, Trauma",Blue Shield,Afternoon,OR
+P-1094,Client 95,"LGBTQ+, CBT",Aetna,Morning,WA
+P-1095,Client 96,DBT,Blue Shield,Afternoon,OR
+P-1096,Client 97,"Family Therapy, Eating Disorders",Blue Shield,Morning,OR
+P-1097,Client 98,"Depression, LGBTQ+",Cigna,Morning,WA
+P-1098,Client 99,"Eating Disorders, LGBTQ+",UnitedHealthcare,Evening,CA
+P-1099,Client 100,Trauma,Cigna,Morning,AZ
+P-1100,Client 101,"DBT, Eating Disorders",UnitedHealthcare,Afternoon,OR
+P-1101,Client 102,LGBTQ+,Blue Shield,Evening,AZ
+P-1102,Client 103,"CBT, LGBTQ+",Aetna,Afternoon,OR
+P-1103,Client 104,Trauma,Cigna,Afternoon,CA
+P-1104,Client 105,Family Therapy,Aetna,Morning,AZ
+P-1105,Client 106,"LGBTQ+, Depression",Blue Shield,Evening,CA
+P-1106,Client 107,Eating Disorders,Cigna,Morning,WA
+P-1107,Client 108,Trauma,Cigna,Evening,AZ
+P-1108,Client 109,LGBTQ+,Aetna,Afternoon,AZ
+P-1109,Client 110,Anxiety,UnitedHealthcare,Morning,CA
+P-1110,Client 111,"DBT, Depression",Cigna,Evening,CA
+P-1111,Client 112,"CBT, Trauma",UnitedHealthcare,Evening,CA
+P-1112,Client 113,"Anxiety, DBT",UnitedHealthcare,Evening,OR
+P-1113,Client 114,"DBT, Anxiety",Cigna,Evening,NV
+P-1114,Client 115,"Depression, Family Therapy",Blue Shield,Evening,AZ
+P-1115,Client 116,Anxiety,UnitedHealthcare,Morning,CA
+P-1116,Client 117,CBT,Blue Shield,Evening,OR
+P-1117,Client 118,Family Therapy,Kaiser,Morning,OR
+P-1118,Client 119,"Family Therapy, DBT",Cigna,Morning,AZ
+P-1119,Client 120,LGBTQ+,Aetna,Afternoon,OR
+P-1120,Client 121,"CBT, LGBTQ+",Cigna,Morning,AZ
+P-1121,Client 122,"Trauma, Eating Disorders",Cigna,Afternoon,NV
+P-1122,Client 123,Family Therapy,Blue Shield,Morning,AZ
+P-1123,Client 124,"Trauma, DBT",Cigna,Evening,CA
+P-1124,Client 125,"DBT, LGBTQ+",Blue Shield,Afternoon,OR
+P-1125,Client 126,"Trauma, Eating Disorders",Blue Shield,Morning,WA
+P-1126,Client 127,"Eating Disorders, CBT",Blue Shield,Afternoon,WA
+P-1127,Client 128,Depression,Blue Shield,Evening,CA
+P-1128,Client 129,"Trauma, LGBTQ+",Aetna,Afternoon,AZ
+P-1129,Client 130,"DBT, Trauma",UnitedHealthcare,Afternoon,CA
+P-1130,Client 131,DBT,Kaiser,Evening,WA
+P-1131,Client 132,"LGBTQ+, Depression",Kaiser,Afternoon,CA
+P-1132,Client 133,CBT,Blue Shield,Evening,WA
+P-1133,Client 134,"Trauma, Family Therapy",Blue Shield,Evening,WA
+P-1134,Client 135,Family Therapy,UnitedHealthcare,Evening,CA
+P-1135,Client 136,Eating Disorders,Kaiser,Afternoon,OR
+P-1136,Client 137,DBT,Aetna,Morning,NV
+P-1137,Client 138,"Depression, Anxiety",Cigna,Morning,WA
+P-1138,Client 139,"CBT, Depression",Aetna,Afternoon,WA
+P-1139,Client 140,"Depression, Family Therapy",Blue Shield,Evening,AZ
+P-1140,Client 141,Anxiety,Blue Shield,Afternoon,NV
+P-1141,Client 142,"DBT, Trauma",Aetna,Evening,NV
+P-1142,Client 143,DBT,UnitedHealthcare,Evening,WA
+P-1143,Client 144,"Eating Disorders, Anxiety",Kaiser,Afternoon,WA
+P-1144,Client 145,"CBT, Depression",Cigna,Morning,WA
+P-1145,Client 146,"DBT, LGBTQ+",UnitedHealthcare,Morning,NV
+P-1146,Client 147,"Family Therapy, Eating Disorders",Cigna,Afternoon,NV
+P-1147,Client 148,Family Therapy,UnitedHealthcare,Morning,CA
+P-1148,Client 149,"DBT, LGBTQ+",Blue Shield,Morning,AZ
+P-1149,Client 150,"LGBTQ+, DBT",Kaiser,Evening,CA
+P-1150,Client 151,"Family Therapy, Anxiety",UnitedHealthcare,Morning,OR
+P-1151,Client 152,DBT,Kaiser,Morning,CA
+P-1152,Client 153,CBT,Blue Shield,Evening,NV
+P-1153,Client 154,"Anxiety, CBT",UnitedHealthcare,Evening,WA
+P-1154,Client 155,CBT,UnitedHealthcare,Afternoon,CA
+P-1155,Client 156,Depression,Aetna,Morning,AZ
+P-1156,Client 157,Depression,Cigna,Morning,AZ
+P-1157,Client 158,Anxiety,Kaiser,Morning,AZ
+P-1158,Client 159,"Family Therapy, CBT",Cigna,Afternoon,AZ
+P-1159,Client 160,"CBT, LGBTQ+",Aetna,Morning,WA
+P-1160,Client 161,DBT,Cigna,Morning,NV
+P-1161,Client 162,CBT,UnitedHealthcare,Afternoon,AZ
+P-1162,Client 163,CBT,Cigna,Evening,WA
+P-1163,Client 164,"Eating Disorders, Anxiety",Blue Shield,Afternoon,NV
+P-1164,Client 165,"LGBTQ+, CBT",Blue Shield,Morning,NV
+P-1165,Client 166,Eating Disorders,Aetna,Evening,WA
+P-1166,Client 167,"DBT, Family Therapy",Cigna,Afternoon,CA
+P-1167,Client 168,CBT,Aetna,Evening,OR
+P-1168,Client 169,CBT,Kaiser,Afternoon,AZ
+P-1169,Client 170,DBT,Kaiser,Afternoon,WA
+P-1170,Client 171,"CBT, Anxiety",Aetna,Evening,CA
+P-1171,Client 172,Depression,Cigna,Afternoon,NV
+P-1172,Client 173,CBT,Blue Shield,Afternoon,AZ
+P-1173,Client 174,CBT,Blue Shield,Afternoon,WA
+P-1174,Client 175,Family Therapy,Blue Shield,Afternoon,OR
+P-1175,Client 176,Depression,Cigna,Afternoon,OR
+P-1176,Client 177,Trauma,Kaiser,Evening,OR
+P-1177,Client 178,"LGBTQ+, Family Therapy",Aetna,Afternoon,OR
+P-1178,Client 179,LGBTQ+,Aetna,Evening,WA
+P-1179,Client 180,LGBTQ+,Kaiser,Afternoon,WA
+P-1180,Client 181,DBT,Cigna,Morning,NV
+P-1181,Client 182,"CBT, LGBTQ+",Kaiser,Afternoon,CA
+P-1182,Client 183,"CBT, Family Therapy",UnitedHealthcare,Morning,NV
+P-1183,Client 184,Family Therapy,Cigna,Evening,OR
+P-1184,Client 185,"DBT, CBT",UnitedHealthcare,Morning,AZ
+P-1185,Client 186,Eating Disorders,UnitedHealthcare,Morning,CA
+P-1186,Client 187,"LGBTQ+, Depression",Blue Shield,Evening,CA
+P-1187,Client 188,Family Therapy,UnitedHealthcare,Evening,WA
+P-1188,Client 189,"DBT, CBT",UnitedHealthcare,Evening,WA
+P-1189,Client 190,"DBT, Trauma",UnitedHealthcare,Afternoon,AZ
+P-1190,Client 191,LGBTQ+,Cigna,Afternoon,OR
+P-1191,Client 192,"Depression, LGBTQ+",Kaiser,Afternoon,CA
+P-1192,Client 193,LGBTQ+,Kaiser,Afternoon,AZ
+P-1193,Client 194,LGBTQ+,UnitedHealthcare,Evening,WA
+P-1194,Client 195,LGBTQ+,Aetna,Morning,AZ
+P-1195,Client 196,"CBT, Anxiety",Blue Shield,Morning,WA
+P-1196,Client 197,"LGBTQ+, Trauma",Kaiser,Evening,CA
+P-1197,Client 198,"Eating Disorders, Depression",Cigna,Afternoon,CA
+P-1198,Client 199,"Family Therapy, Depression",Aetna,Afternoon,OR
+P-1199,Client 200,"Eating Disorders, DBT",UnitedHealthcare,Evening,CA
+P-1200,Client 201,Anxiety,UnitedHealthcare,Morning,OR
+P-1201,Client 202,Eating Disorders,Kaiser,Morning,NV
+P-1202,Client 203,LGBTQ+,Blue Shield,Evening,CA
+P-1203,Client 204,"Anxiety, DBT",Aetna,Evening,NV
+P-1204,Client 205,Anxiety,UnitedHealthcare,Afternoon,NV
+P-1205,Client 206,Anxiety,Cigna,Afternoon,WA
+P-1206,Client 207,"DBT, Trauma",Kaiser,Evening,WA
+P-1207,Client 208,Anxiety,Aetna,Evening,NV
+P-1208,Client 209,"Eating Disorders, Family Therapy",Kaiser,Afternoon,WA
+P-1209,Client 210,Depression,Cigna,Morning,WA
+P-1210,Client 211,DBT,Kaiser,Afternoon,OR
+P-1211,Client 212,Anxiety,Aetna,Afternoon,NV
+P-1212,Client 213,Family Therapy,Kaiser,Morning,CA
+P-1213,Client 214,Depression,Blue Shield,Evening,WA
+P-1214,Client 215,Depression,Cigna,Evening,OR
+P-1215,Client 216,"Depression, Family Therapy",UnitedHealthcare,Morning,CA
+P-1216,Client 217,Depression,Kaiser,Afternoon,OR
+P-1217,Client 218,"DBT, Family Therapy",Aetna,Morning,CA
+P-1218,Client 219,"CBT, Eating Disorders",Aetna,Evening,OR
+P-1219,Client 220,Trauma,Blue Shield,Afternoon,OR
+P-1220,Client 221,Eating Disorders,Aetna,Evening,NV
+P-1221,Client 222,"CBT, Trauma",Cigna,Evening,WA
+P-1222,Client 223,"Eating Disorders, DBT",Aetna,Evening,OR
+P-1223,Client 224,"CBT, Family Therapy",UnitedHealthcare,Evening,OR
+P-1224,Client 225,"Trauma, Family Therapy",Blue Shield,Morning,AZ
+P-1225,Client 226,LGBTQ+,UnitedHealthcare,Evening,WA
+P-1226,Client 227,Trauma,Aetna,Evening,OR
+P-1227,Client 228,Trauma,Aetna,Morning,NV
+P-1228,Client 229,"CBT, Family Therapy",Aetna,Morning,NV
+P-1229,Client 230,"DBT, Depression",Cigna,Morning,NV
+P-1230,Client 231,"Depression, Anxiety",Blue Shield,Afternoon,CA
+P-1231,Client 232,"Eating Disorders, Trauma",Cigna,Morning,NV
+P-1232,Client 233,Anxiety,Blue Shield,Morning,CA
+P-1233,Client 234,"Depression, Anxiety",UnitedHealthcare,Morning,NV
+P-1234,Client 235,"Family Therapy, Anxiety",Kaiser,Morning,AZ
+P-1235,Client 236,DBT,Cigna,Morning,WA
+P-1236,Client 237,Anxiety,UnitedHealthcare,Evening,CA
+P-1237,Client 238,Depression,Blue Shield,Evening,NV
+P-1238,Client 239,"Eating Disorders, DBT",UnitedHealthcare,Morning,OR
+P-1239,Client 240,"LGBTQ+, Eating Disorders",Blue Shield,Afternoon,WA
+P-1240,Client 241,"Eating Disorders, Trauma",Kaiser,Evening,AZ
+P-1241,Client 242,CBT,Kaiser,Afternoon,NV
+P-1242,Client 243,Anxiety,UnitedHealthcare,Evening,CA
+P-1243,Client 244,"Trauma, CBT",Blue Shield,Evening,AZ
+P-1244,Client 245,"CBT, Family Therapy",Aetna,Afternoon,NV
+P-1245,Client 246,Family Therapy,Blue Shield,Morning,NV
+P-1246,Client 247,"LGBTQ+, Anxiety",Cigna,Morning,NV
+P-1247,Client 248,"Trauma, CBT",Aetna,Afternoon,WA
+P-1248,Client 249,Trauma,Aetna,Evening,CA
+P-1249,Client 250,Trauma,UnitedHealthcare,Morning,NV
+P-1250,Client 251,Family Therapy,Kaiser,Afternoon,WA
+P-1251,Client 252,Anxiety,UnitedHealthcare,Evening,OR
+P-1252,Client 253,"Depression, Family Therapy",Cigna,Morning,AZ
+P-1253,Client 254,Family Therapy,Aetna,Evening,NV
+P-1254,Client 255,"Anxiety, CBT",Cigna,Morning,AZ
+P-1255,Client 256,"Eating Disorders, DBT",UnitedHealthcare,Afternoon,CA
+P-1256,Client 257,"Eating Disorders, LGBTQ+",Cigna,Evening,NV
+P-1257,Client 258,"CBT, Eating Disorders",Kaiser,Morning,AZ
+P-1258,Client 259,"Anxiety, DBT",Blue Shield,Morning,OR
+P-1259,Client 260,"Depression, Family Therapy",Kaiser,Evening,NV
+P-1260,Client 261,Eating Disorders,Aetna,Afternoon,NV
+P-1261,Client 262,CBT,Cigna,Evening,WA
+P-1262,Client 263,DBT,Blue Shield,Evening,WA
+P-1263,Client 264,"Family Therapy, CBT",UnitedHealthcare,Evening,OR
+P-1264,Client 265,DBT,Cigna,Morning,AZ
+P-1265,Client 266,"Anxiety, Family Therapy",Cigna,Evening,AZ
+P-1266,Client 267,LGBTQ+,Kaiser,Evening,WA
+P-1267,Client 268,"Depression, DBT",UnitedHealthcare,Morning,CA
+P-1268,Client 269,"Trauma, CBT",UnitedHealthcare,Afternoon,CA
+P-1269,Client 270,Anxiety,Aetna,Evening,NV
+P-1270,Client 271,"LGBTQ+, CBT",UnitedHealthcare,Afternoon,WA
+P-1271,Client 272,DBT,UnitedHealthcare,Morning,AZ
+P-1272,Client 273,CBT,Aetna,Afternoon,AZ
+P-1273,Client 274,"Eating Disorders, Anxiety",Blue Shield,Evening,OR
+P-1274,Client 275,DBT,UnitedHealthcare,Morning,OR
+P-1275,Client 276,"Anxiety, DBT",Aetna,Evening,NV
+P-1276,Client 277,Eating Disorders,Kaiser,Evening,NV
+P-1277,Client 278,"LGBTQ+, Family Therapy",Kaiser,Morning,OR
+P-1278,Client 279,Family Therapy,Blue Shield,Evening,CA
+P-1279,Client 280,CBT,UnitedHealthcare,Afternoon,NV
+P-1280,Client 281,Trauma,Aetna,Morning,OR
+P-1281,Client 282,Anxiety,Blue Shield,Morning,AZ
+P-1282,Client 283,CBT,Kaiser,Evening,NV
+P-1283,Client 284,"Family Therapy, Trauma",Blue Shield,Morning,CA
+P-1284,Client 285,Trauma,Aetna,Evening,WA
+P-1285,Client 286,Anxiety,Cigna,Afternoon,CA
+P-1286,Client 287,DBT,Cigna,Evening,WA
+P-1287,Client 288,"Depression, Trauma",Aetna,Evening,AZ
+P-1288,Client 289,CBT,Cigna,Morning,AZ
+P-1289,Client 290,Trauma,Kaiser,Morning,AZ
+P-1290,Client 291,Family Therapy,Kaiser,Morning,OR
+P-1291,Client 292,LGBTQ+,Kaiser,Afternoon,NV
+P-1292,Client 293,"Eating Disorders, Anxiety",Cigna,Afternoon,CA
+P-1293,Client 294,"Trauma, CBT",Aetna,Morning,AZ
+P-1294,Client 295,"LGBTQ+, Family Therapy",UnitedHealthcare,Afternoon,NV
+P-1295,Client 296,Family Therapy,Blue Shield,Morning,NV
+P-1296,Client 297,"Depression, Trauma",Blue Shield,Afternoon,CA
+P-1297,Client 298,"DBT, Eating Disorders",UnitedHealthcare,Evening,NV
+P-1298,Client 299,Trauma,Blue Shield,Afternoon,OR
+P-1299,Client 300,Eating Disorders,Blue Shield,Afternoon,CA
+P-1300,Client 301,"Anxiety, Eating Disorders",Kaiser,Evening,AZ
+P-1301,Client 302,Trauma,Blue Shield,Morning,WA
+P-1302,Client 303,"LGBTQ+, Family Therapy",Cigna,Morning,WA
+P-1303,Client 304,Anxiety,UnitedHealthcare,Afternoon,CA
+P-1304,Client 305,DBT,Aetna,Afternoon,WA
+P-1305,Client 306,"CBT, LGBTQ+",Aetna,Evening,OR
+P-1306,Client 307,"Depression, Eating Disorders",UnitedHealthcare,Morning,WA
+P-1307,Client 308,Anxiety,Aetna,Morning,WA
+P-1308,Client 309,CBT,Blue Shield,Afternoon,CA
+P-1309,Client 310,Depression,Kaiser,Evening,AZ
+P-1310,Client 311,"Family Therapy, Anxiety",UnitedHealthcare,Morning,NV
+P-1311,Client 312,"Eating Disorders, Anxiety",Aetna,Afternoon,WA
+P-1312,Client 313,Trauma,UnitedHealthcare,Afternoon,OR
+P-1313,Client 314,"CBT, LGBTQ+",Aetna,Afternoon,OR
+P-1314,Client 315,"Depression, LGBTQ+",Blue Shield,Evening,WA
+P-1315,Client 316,"Depression, Eating Disorders",Kaiser,Afternoon,WA
+P-1316,Client 317,LGBTQ+,Aetna,Afternoon,WA
+P-1317,Client 318,Trauma,Cigna,Afternoon,WA
+P-1318,Client 319,"DBT, CBT",UnitedHealthcare,Afternoon,OR
+P-1319,Client 320,"LGBTQ+, Trauma",Aetna,Morning,NV
+P-1320,Client 321,"Anxiety, CBT",Cigna,Afternoon,AZ
+P-1321,Client 322,Anxiety,Aetna,Morning,OR
+P-1322,Client 323,"Family Therapy, Trauma",Kaiser,Evening,CA
+P-1323,Client 324,CBT,UnitedHealthcare,Morning,OR
+P-1324,Client 325,"Family Therapy, CBT",Kaiser,Morning,OR
+P-1325,Client 326,"LGBTQ+, CBT",Aetna,Morning,WA
+P-1326,Client 327,Family Therapy,Cigna,Evening,CA
+P-1327,Client 328,"CBT, Depression",Blue Shield,Afternoon,AZ
+P-1328,Client 329,"LGBTQ+, CBT",Blue Shield,Afternoon,NV
+P-1329,Client 330,CBT,Kaiser,Afternoon,AZ
+P-1330,Client 331,Family Therapy,Aetna,Evening,AZ
+P-1331,Client 332,"Family Therapy, Depression",Cigna,Morning,NV
+P-1332,Client 333,Family Therapy,Blue Shield,Evening,OR
+P-1333,Client 334,Eating Disorders,Cigna,Morning,OR
+P-1334,Client 335,"DBT, LGBTQ+",UnitedHealthcare,Evening,OR
+P-1335,Client 336,Family Therapy,Kaiser,Evening,AZ
+P-1336,Client 337,"DBT, Trauma",Aetna,Afternoon,WA
+P-1337,Client 338,Family Therapy,Blue Shield,Afternoon,CA
+P-1338,Client 339,"LGBTQ+, Trauma",UnitedHealthcare,Afternoon,NV
+P-1339,Client 340,DBT,Aetna,Evening,AZ
+P-1340,Client 341,"LGBTQ+, Depression",Blue Shield,Afternoon,WA
+P-1341,Client 342,Anxiety,Blue Shield,Evening,NV
+P-1342,Client 343,Trauma,Aetna,Afternoon,AZ
+P-1343,Client 344,Trauma,Cigna,Morning,CA
+P-1344,Client 345,DBT,Kaiser,Evening,CA
+P-1345,Client 346,CBT,UnitedHealthcare,Afternoon,CA
+P-1346,Client 347,Family Therapy,UnitedHealthcare,Afternoon,WA
+P-1347,Client 348,CBT,Aetna,Afternoon,OR
+P-1348,Client 349,"CBT, Family Therapy",Cigna,Evening,WA
+P-1349,Client 350,"Anxiety, Depression",Cigna,Morning,CA
+P-1350,Client 351,"Depression, CBT",Kaiser,Afternoon,CA
+P-1351,Client 352,DBT,Blue Shield,Afternoon,OR
+P-1352,Client 353,"LGBTQ+, Trauma",Kaiser,Evening,CA
+P-1353,Client 354,Family Therapy,UnitedHealthcare,Morning,NV
+P-1354,Client 355,DBT,Cigna,Morning,OR
+P-1355,Client 356,Anxiety,Blue Shield,Evening,WA
+P-1356,Client 357,"Trauma, Anxiety",Kaiser,Afternoon,CA
+P-1357,Client 358,Trauma,UnitedHealthcare,Morning,WA
+P-1358,Client 359,"Family Therapy, Trauma",Blue Shield,Evening,WA
+P-1359,Client 360,Depression,Kaiser,Morning,NV
+P-1360,Client 361,"Anxiety, CBT",Aetna,Morning,WA
+P-1361,Client 362,Anxiety,Aetna,Afternoon,NV
+P-1362,Client 363,"Depression, Family Therapy",Blue Shield,Afternoon,AZ
+P-1363,Client 364,"DBT, Anxiety",Cigna,Afternoon,CA
+P-1364,Client 365,"Family Therapy, DBT",Blue Shield,Morning,CA
+P-1365,Client 366,"Trauma, DBT",Kaiser,Evening,NV
+P-1366,Client 367,"Depression, DBT",UnitedHealthcare,Morning,NV
+P-1367,Client 368,CBT,Cigna,Afternoon,AZ
+P-1368,Client 369,"Depression, Family Therapy",UnitedHealthcare,Afternoon,CA
+P-1369,Client 370,"Eating Disorders, DBT",Blue Shield,Afternoon,NV
+P-1370,Client 371,"Trauma, CBT",Cigna,Evening,AZ
+P-1371,Client 372,DBT,Aetna,Afternoon,CA
+P-1372,Client 373,"Trauma, Depression",UnitedHealthcare,Afternoon,AZ
+P-1373,Client 374,CBT,UnitedHealthcare,Evening,OR
+P-1374,Client 375,"Trauma, Family Therapy",Aetna,Afternoon,OR
+P-1375,Client 376,Trauma,Aetna,Morning,CA
+P-1376,Client 377,Eating Disorders,Kaiser,Evening,OR
+P-1377,Client 378,Eating Disorders,Cigna,Morning,NV
+P-1378,Client 379,DBT,Aetna,Morning,AZ
+P-1379,Client 380,Eating Disorders,UnitedHealthcare,Afternoon,OR
+P-1380,Client 381,DBT,Kaiser,Morning,AZ
+P-1381,Client 382,"CBT, Depression",UnitedHealthcare,Evening,AZ
+P-1382,Client 383,"Family Therapy, Depression",Blue Shield,Morning,AZ
+P-1383,Client 384,"Anxiety, Trauma",Blue Shield,Afternoon,CA
+P-1384,Client 385,"Eating Disorders, CBT",Kaiser,Afternoon,OR
+P-1385,Client 386,LGBTQ+,Aetna,Afternoon,CA
+P-1386,Client 387,"Depression, Anxiety",UnitedHealthcare,Afternoon,NV
+P-1387,Client 388,Eating Disorders,Blue Shield,Evening,CA
+P-1388,Client 389,"LGBTQ+, Trauma",Cigna,Morning,WA
+P-1389,Client 390,LGBTQ+,UnitedHealthcare,Afternoon,OR
+P-1390,Client 391,Depression,Cigna,Evening,OR
+P-1391,Client 392,Family Therapy,UnitedHealthcare,Morning,AZ
+P-1392,Client 393,"Trauma, Eating Disorders",UnitedHealthcare,Morning,WA
+P-1393,Client 394,"LGBTQ+, DBT",Kaiser,Afternoon,NV
+P-1394,Client 395,"Depression, Family Therapy",Blue Shield,Evening,AZ
+P-1395,Client 396,"Depression, LGBTQ+",Kaiser,Afternoon,NV
+P-1396,Client 397,Depression,Cigna,Evening,WA
+P-1397,Client 398,Trauma,Kaiser,Morning,OR
+P-1398,Client 399,CBT,UnitedHealthcare,Afternoon,OR
+P-1399,Client 400,"DBT, Trauma",Kaiser,Afternoon,WA
+P-1400,Client 401,"Family Therapy, Trauma",Kaiser,Evening,OR
+P-1401,Client 402,Eating Disorders,Aetna,Evening,NV
+P-1402,Client 403,"DBT, Trauma",Aetna,Evening,CA
+P-1403,Client 404,"Depression, LGBTQ+",Cigna,Morning,CA
+P-1404,Client 405,DBT,Cigna,Evening,AZ
+P-1405,Client 406,"CBT, Trauma",Aetna,Evening,WA
+P-1406,Client 407,"Eating Disorders, Family Therapy",UnitedHealthcare,Evening,NV
+P-1407,Client 408,"Eating Disorders, Family Therapy",Cigna,Afternoon,CA
+P-1408,Client 409,DBT,Cigna,Afternoon,CA
+P-1409,Client 410,"Anxiety, Depression",Kaiser,Evening,AZ
+P-1410,Client 411,"Trauma, CBT",Blue Shield,Afternoon,NV
+P-1411,Client 412,Family Therapy,Aetna,Evening,AZ
+P-1412,Client 413,Depression,UnitedHealthcare,Evening,CA
+P-1413,Client 414,LGBTQ+,UnitedHealthcare,Evening,WA
+P-1414,Client 415,Family Therapy,Kaiser,Evening,NV
+P-1415,Client 416,LGBTQ+,Kaiser,Afternoon,OR
+P-1416,Client 417,Eating Disorders,Kaiser,Afternoon,AZ
+P-1417,Client 418,Depression,Cigna,Evening,NV
+P-1418,Client 419,Family Therapy,Aetna,Evening,OR
+P-1419,Client 420,"Depression, LGBTQ+",Aetna,Evening,AZ
+P-1420,Client 421,"Family Therapy, Anxiety",UnitedHealthcare,Afternoon,NV
+P-1421,Client 422,CBT,Blue Shield,Afternoon,AZ
+P-1422,Client 423,LGBTQ+,Kaiser,Evening,OR
+P-1423,Client 424,Depression,Aetna,Morning,AZ
+P-1424,Client 425,"Anxiety, DBT",Cigna,Afternoon,CA
+P-1425,Client 426,Depression,Kaiser,Evening,NV
+P-1426,Client 427,Family Therapy,Blue Shield,Afternoon,WA
+P-1427,Client 428,"LGBTQ+, Depression",Blue Shield,Morning,NV
+P-1428,Client 429,Anxiety,UnitedHealthcare,Afternoon,CA
+P-1429,Client 430,DBT,Cigna,Afternoon,NV
+P-1430,Client 431,CBT,Cigna,Morning,CA
+P-1431,Client 432,Trauma,Aetna,Afternoon,OR
+P-1432,Client 433,Trauma,UnitedHealthcare,Evening,AZ
+P-1433,Client 434,"Eating Disorders, Anxiety",Cigna,Morning,OR
+P-1434,Client 435,DBT,UnitedHealthcare,Morning,AZ
+P-1435,Client 436,Family Therapy,Cigna,Morning,CA
+P-1436,Client 437,LGBTQ+,Blue Shield,Evening,OR
+P-1437,Client 438,LGBTQ+,Kaiser,Morning,WA
+P-1438,Client 439,"Family Therapy, CBT",Aetna,Afternoon,AZ
+P-1439,Client 440,Depression,UnitedHealthcare,Afternoon,AZ
+P-1440,Client 441,Family Therapy,Aetna,Afternoon,OR
+P-1441,Client 442,"CBT, Family Therapy",Aetna,Afternoon,WA
+P-1442,Client 443,"CBT, Family Therapy",UnitedHealthcare,Afternoon,AZ
+P-1443,Client 444,CBT,Aetna,Morning,AZ
+P-1444,Client 445,Anxiety,UnitedHealthcare,Evening,NV
+P-1445,Client 446,DBT,Aetna,Evening,NV
+P-1446,Client 447,"CBT, Eating Disorders",Cigna,Afternoon,OR
+P-1447,Client 448,CBT,Blue Shield,Morning,OR
+P-1448,Client 449,Depression,Aetna,Morning,AZ
+P-1449,Client 450,DBT,Blue Shield,Evening,NV
+P-1450,Client 451,Depression,Blue Shield,Evening,CA
+P-1451,Client 452,"LGBTQ+, CBT",Aetna,Evening,WA
+P-1452,Client 453,Anxiety,UnitedHealthcare,Evening,OR
+P-1453,Client 454,CBT,Cigna,Afternoon,NV
+P-1454,Client 455,Eating Disorders,UnitedHealthcare,Afternoon,AZ
+P-1455,Client 456,"Trauma, DBT",Cigna,Morning,WA
+P-1456,Client 457,Family Therapy,Blue Shield,Afternoon,CA
+P-1457,Client 458,"Family Therapy, Trauma",Kaiser,Afternoon,WA
+P-1458,Client 459,DBT,Cigna,Evening,WA
+P-1459,Client 460,"Depression, Eating Disorders",Blue Shield,Afternoon,WA
+P-1460,Client 461,Eating Disorders,UnitedHealthcare,Evening,OR
+P-1461,Client 462,Trauma,Cigna,Afternoon,OR
+P-1462,Client 463,"CBT, Trauma",UnitedHealthcare,Morning,WA
+P-1463,Client 464,"CBT, LGBTQ+",Kaiser,Morning,CA
+P-1464,Client 465,"DBT, CBT",Kaiser,Afternoon,OR
+P-1465,Client 466,"Eating Disorders, CBT",UnitedHealthcare,Afternoon,WA
+P-1466,Client 467,"Depression, Family Therapy",Kaiser,Evening,AZ
+P-1467,Client 468,"Family Therapy, Eating Disorders",Blue Shield,Morning,NV
+P-1468,Client 469,"CBT, DBT",Kaiser,Afternoon,CA
+P-1469,Client 470,"Depression, Anxiety",Kaiser,Morning,NV
+P-1470,Client 471,"Family Therapy, DBT",Kaiser,Afternoon,AZ
+P-1471,Client 472,"LGBTQ+, Family Therapy",Kaiser,Afternoon,AZ
+P-1472,Client 473,"Depression, CBT",Kaiser,Evening,WA
+P-1473,Client 474,"LGBTQ+, CBT",Kaiser,Morning,OR
+P-1474,Client 475,Anxiety,UnitedHealthcare,Morning,NV
+P-1475,Client 476,DBT,Kaiser,Evening,AZ
+P-1476,Client 477,Depression,Kaiser,Morning,OR
+P-1477,Client 478,Anxiety,Blue Shield,Evening,AZ
+P-1478,Client 479,Anxiety,Cigna,Morning,CA
+P-1479,Client 480,LGBTQ+,Kaiser,Evening,AZ
+P-1480,Client 481,Family Therapy,Blue Shield,Morning,AZ
+P-1481,Client 482,Anxiety,Aetna,Afternoon,OR
+P-1482,Client 483,"Depression, CBT",UnitedHealthcare,Morning,WA
+P-1483,Client 484,CBT,Blue Shield,Evening,OR
+P-1484,Client 485,Anxiety,Cigna,Afternoon,NV
+P-1485,Client 486,"LGBTQ+, Family Therapy",Aetna,Evening,OR
+P-1486,Client 487,Depression,Cigna,Afternoon,WA
+P-1487,Client 488,CBT,Aetna,Afternoon,AZ
+P-1488,Client 489,"Trauma, Anxiety",Aetna,Afternoon,AZ
+P-1489,Client 490,Family Therapy,Cigna,Afternoon,WA
+P-1490,Client 491,"Family Therapy, Depression",UnitedHealthcare,Evening,CA
+P-1491,Client 492,Trauma,Blue Shield,Morning,OR
+P-1492,Client 493,"Trauma, CBT",Kaiser,Afternoon,CA
+P-1493,Client 494,"Family Therapy, Eating Disorders",UnitedHealthcare,Morning,AZ
+P-1494,Client 495,Trauma,Cigna,Morning,NV
+P-1495,Client 496,"Family Therapy, Depression",Kaiser,Morning,CA
+P-1496,Client 497,Trauma,Kaiser,Morning,CA
+P-1497,Client 498,"LGBTQ+, Anxiety",Aetna,Morning,AZ
+P-1498,Client 499,"Eating Disorders, Anxiety",Blue Shield,Afternoon,WA
+P-1499,Client 500,"Eating Disorders, LGBTQ+",UnitedHealthcare,Afternoon,NV

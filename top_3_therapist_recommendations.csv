@@ -1,0 +1,501 @@
+Patient_ID,Patient_Name,State,Insurance,Match_1,Match_1_Score,Match_2,Match_2_Score,Match_3,Match_3_Score
+P-1000,Client 1,CA,Kaiser,Provider 6,8,Provider 7,3,Provider 8,3
+P-1001,Client 2,CA,UnitedHealthcare,Provider 6,13,Provider 8,8,Provider 15,8
+P-1002,Client 3,WA,Kaiser,Provider 9,8,Provider 2,3,Provider 10,3
+P-1003,Client 4,OR,UnitedHealthcare,Provider 19,13,Provider 23,13,Provider 18,10
+P-1004,Client 5,CA,Kaiser,Provider 8,8,Provider 12,8,Provider 20,8
+P-1005,Client 6,WA,Blue Shield,Provider 2,13,Provider 10,8,Provider 9,5
+P-1006,Client 7,AZ,Blue Shield,Provider 21,8,Provider 23,5,Provider 2,3
+P-1007,Client 8,AZ,Kaiser,Provider 16,8,Provider 2,3,No Eligible Match,0
+P-1008,Client 9,CA,Blue Shield,Provider 14,8,Provider 17,8,Provider 20,8
+P-1009,Client 10,WA,Aetna,Provider 2,8,Provider 22,8,Provider 9,5
+P-1010,Client 11,AZ,Cigna,Provider 2,13,Provider 21,13,Provider 5,5
+P-1011,Client 12,NV,Kaiser,Provider 4,10,Provider 11,8,No Eligible Match,0
+P-1012,Client 13,NV,Cigna,"Dr. Belle Richter, PsyD",8,Provider 18,8,Provider 11,3
+P-1013,Client 14,CA,Blue Shield,Provider 14,8,Provider 17,8,Provider 7,5
+P-1014,Client 15,NV,Cigna,Provider 4,5,Provider 5,3,Provider 11,3
+P-1015,Client 16,NV,Blue Shield,"Dr. Belle Richter, PsyD",3,No Eligible Match,0,No Eligible Match,0
+P-1016,Client 17,NV,Aetna,Provider 11,8,Provider 4,5,Provider 18,3
+P-1017,Client 18,WA,Cigna,Provider 2,13,Provider 10,8,Provider 22,8
+P-1018,Client 19,WA,Cigna,Provider 18,10,"Dr. Belle Richter, PsyD",8,Provider 10,8
+P-1019,Client 20,CA,Aetna,Provider 12,8,Provider 22,8,Provider 5,5
+P-1020,Client 21,WA,Aetna,Provider 17,13,Provider 18,13,Provider 9,10
+P-1021,Client 22,CA,Cigna,Provider 6,8,Provider 20,8,Provider 3,3
+P-1022,Client 23,OR,Cigna,Provider 16,8,Provider 18,8,Provider 20,8
+P-1023,Client 24,OR,Cigna,Provider 16,8,Provider 20,8,Provider 22,8
+P-1024,Client 25,WA,Blue Shield,Provider 2,8,Provider 9,8,Provider 17,8
+P-1025,Client 26,CA,Cigna,Provider 6,8,Provider 3,3,Provider 5,3
+P-1026,Client 27,AZ,Kaiser,Provider 2,13,Provider 16,3,No Eligible Match,0
+P-1027,Client 28,NV,Aetna,Provider 11,8,Provider 18,8,Provider 4,5
+P-1028,Client 29,NV,UnitedHealthcare,Provider 5,5,"Dr. Belle Richter, PsyD",3,Provider 11,3
+P-1029,Client 30,NV,UnitedHealthcare,Provider 18,13,Provider 11,8,"Dr. Belle Richter, PsyD",5
+P-1030,Client 31,OR,Aetna,Provider 16,8,Provider 18,8,Provider 19,8
+P-1031,Client 32,AZ,UnitedHealthcare,Provider 21,13,Provider 5,8,Provider 16,8
+P-1032,Client 33,AZ,Blue Shield,Provider 14,8,Provider 17,8,Provider 21,8
+P-1033,Client 34,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1034,Client 35,WA,UnitedHealthcare,Provider 17,13,Provider 18,8,Provider 24,8
+P-1035,Client 36,WA,UnitedHealthcare,Provider 16,8,"Dr. Belle Richter, PsyD",3,Provider 17,3
+P-1036,Client 37,WA,Cigna,Provider 2,8,Provider 18,8,Provider 10,3
+P-1037,Client 38,WA,Cigna,Provider 10,13,Provider 2,8,Provider 22,8
+P-1038,Client 39,CA,UnitedHealthcare,Provider 6,8,Provider 15,8,Provider 17,8
+P-1039,Client 40,AZ,Cigna,Provider 5,8,Provider 16,8,Provider 21,8
+P-1040,Client 41,NV,Blue Shield,"Dr. Belle Richter, PsyD",3,No Eligible Match,0,No Eligible Match,0
+P-1041,Client 42,WA,Kaiser,Provider 2,8,Provider 16,8,Provider 10,3
+P-1042,Client 43,WA,Blue Shield,Provider 10,8,Provider 25,8,Provider 9,5
+P-1043,Client 44,OR,Blue Shield,Provider 20,8,Provider 18,3,Provider 19,3
+P-1044,Client 45,OR,UnitedHealthcare,Provider 23,5,Provider 16,3,Provider 18,3
+P-1045,Client 46,NV,UnitedHealthcare,Provider 5,8,"Dr. Belle Richter, PsyD",3,No Eligible Match,0
+P-1046,Client 47,WA,Aetna,Provider 16,8,Provider 18,5,Provider 2,3
+P-1047,Client 48,WA,Aetna,Provider 2,8,Provider 16,8,Provider 22,3
+P-1048,Client 49,OR,Aetna,Provider 18,8,Provider 16,3,Provider 19,3
+P-1049,Client 50,CA,Cigna,Provider 3,8,Provider 5,8,Provider 6,8
+P-1050,Client 51,AZ,Blue Shield,Provider 2,13,Provider 14,8,Provider 23,5
+P-1051,Client 52,OR,Aetna,Provider 16,8,Provider 19,8,Provider 13,5
+P-1052,Client 53,WA,Blue Shield,"Dr. Belle Richter, PsyD",3,Provider 2,3,Provider 10,3
+P-1053,Client 54,OR,UnitedHealthcare,Provider 16,8,Provider 20,8,Provider 18,3
+P-1054,Client 55,OR,Kaiser,Provider 16,8,Provider 20,8,Provider 19,3
+P-1055,Client 56,CA,UnitedHealthcare,Provider 5,8,Provider 17,8,Provider 6,3
+P-1056,Client 57,OR,Blue Shield,Provider 19,8,Provider 20,8,Provider 21,8
+P-1057,Client 58,NV,Cigna,Provider 11,13,Provider 18,8,Provider 4,5
+P-1058,Client 59,AZ,Blue Shield,Provider 23,10,"Dr. Belle Richter, PsyD",8,Provider 14,8
+P-1059,Client 60,NV,Aetna,Provider 5,8,Provider 11,5,Provider 18,5
+P-1060,Client 61,NV,Blue Shield,Provider 18,5,"Dr. Belle Richter, PsyD",3,No Eligible Match,0
+P-1061,Client 62,AZ,Cigna,Provider 16,8,Provider 21,8,"Dr. Belle Richter, PsyD",3
+P-1062,Client 63,CA,Kaiser,Provider 8,8,Provider 12,8,Provider 20,8
+P-1063,Client 64,AZ,Blue Shield,Provider 21,8,Provider 23,8,"Dr. Belle Richter, PsyD",3
+P-1064,Client 65,OR,Kaiser,Provider 19,8,Provider 13,5,Provider 16,3
+P-1065,Client 66,CA,UnitedHealthcare,Provider 6,8,Provider 17,8,Provider 20,8
+P-1066,Client 67,CA,Aetna,Provider 5,8,Provider 6,8,Provider 12,8
+P-1067,Client 68,OR,UnitedHealthcare,Provider 18,8,Provider 21,8,Provider 16,3
+P-1068,Client 69,CA,Kaiser,Provider 6,8,Provider 20,8,Provider 12,3
+P-1069,Client 70,CA,Blue Shield,"Dr. Belle Richter, PsyD",8,Provider 3,8,Provider 8,8
+P-1070,Client 71,OR,UnitedHealthcare,Provider 20,8,Provider 21,8,"Dr. Belle Richter, PsyD",3
+P-1071,Client 72,OR,Kaiser,Provider 16,8,Provider 19,8,Provider 13,5
+P-1072,Client 73,NV,Cigna,Provider 5,8,Provider 11,8,Provider 18,8
+P-1073,Client 74,CA,UnitedHealthcare,Provider 6,8,Provider 8,8,Provider 17,8
+P-1074,Client 75,CA,Cigna,Provider 5,13,Provider 12,13,Provider 3,8
+P-1075,Client 76,WA,Kaiser,Provider 2,8,Provider 9,5,Provider 10,3
+P-1076,Client 77,OR,Blue Shield,Provider 21,13,Provider 13,8,Provider 19,8
+P-1077,Client 78,CA,UnitedHealthcare,Provider 5,8,Provider 20,8,Provider 15,5
+P-1078,Client 79,AZ,Blue Shield,Provider 17,8,Provider 23,5,Provider 25,5
+P-1079,Client 80,CA,Aetna,Provider 6,8,Provider 14,8,Provider 15,8
+P-1080,Client 81,WA,Aetna,Provider 2,8,Provider 25,8,Provider 9,5
+P-1081,Client 82,WA,Aetna,Provider 18,13,Provider 9,8,Provider 16,8
+P-1082,Client 83,NV,Blue Shield,"Dr. Belle Richter, PsyD",3,Provider 18,3,No Eligible Match,0
+P-1083,Client 84,WA,Cigna,Provider 10,8,Provider 18,8,Provider 2,3
+P-1084,Client 85,WA,Kaiser,Provider 2,8,Provider 16,8,Provider 10,3
+P-1085,Client 86,OR,Aetna,Provider 18,13,Provider 16,8,Provider 19,8
+P-1086,Client 87,OR,Kaiser,Provider 19,8,Provider 16,3,Provider 20,3
+P-1087,Client 88,WA,Blue Shield,Provider 9,13,Provider 17,13,Provider 10,8
+P-1088,Client 89,NV,Cigna,Provider 11,8,Provider 18,8,Provider 4,5
+P-1089,Client 90,OR,UnitedHealthcare,Provider 19,13,Provider 23,13,Provider 16,8
+P-1090,Client 91,NV,Kaiser,Provider 4,5,Provider 11,3,No Eligible Match,0
+P-1091,Client 92,WA,Aetna,Provider 9,8,Provider 16,8,Provider 17,8
+P-1092,Client 93,NV,UnitedHealthcare,Provider 11,8,"Dr. Belle Richter, PsyD",3,Provider 18,3
+P-1093,Client 94,OR,Blue Shield,Provider 13,13,Provider 19,13,Provider 21,13
+P-1094,Client 95,WA,Aetna,Provider 2,13,Provider 16,8,Provider 17,8
+P-1095,Client 96,OR,Blue Shield,Provider 13,8,Provider 23,8,"Dr. Belle Richter, PsyD",3
+P-1096,Client 97,OR,Blue Shield,Provider 18,8,Provider 19,8,Provider 20,8
+P-1097,Client 98,WA,Cigna,Provider 2,8,Provider 16,8,Provider 18,8
+P-1098,Client 99,CA,UnitedHealthcare,Provider 6,13,Provider 17,13,Provider 15,10
+P-1099,Client 100,AZ,Cigna,Provider 2,8,Provider 21,8,Provider 5,5
+P-1100,Client 101,OR,UnitedHealthcare,Provider 20,8,Provider 21,8,Provider 23,8
+P-1101,Client 102,AZ,Blue Shield,Provider 2,8,Provider 14,8,Provider 17,8
+P-1102,Client 103,OR,Aetna,Provider 16,8,Provider 22,8,Provider 18,5
+P-1103,Client 104,CA,Cigna,Provider 5,8,Provider 12,8,Provider 22,8
+P-1104,Client 105,AZ,Aetna,Provider 17,8,Provider 5,5,Provider 23,5
+P-1105,Client 106,CA,Blue Shield,Provider 7,8,Provider 8,8,Provider 14,8
+P-1106,Client 107,WA,Cigna,"Dr. Belle Richter, PsyD",3,Provider 2,3,Provider 10,3
+P-1107,Client 108,AZ,Cigna,Provider 2,8,Provider 5,8,Provider 21,8
+P-1108,Client 109,AZ,Aetna,Provider 2,8,Provider 14,8,Provider 25,8
+P-1109,Client 110,CA,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 20,8,Provider 8,5
+P-1110,Client 111,CA,Cigna,Provider 3,8,Provider 5,8,Provider 6,8
+P-1111,Client 112,CA,UnitedHealthcare,Provider 5,8,Provider 20,8,Provider 6,3
+P-1112,Client 113,OR,UnitedHealthcare,Provider 23,10,Provider 16,8,Provider 18,8
+P-1113,Client 114,NV,Cigna,Provider 5,8,Provider 18,8,"Dr. Belle Richter, PsyD",5
+P-1114,Client 115,AZ,Blue Shield,Provider 23,10,Provider 17,8,Provider 21,8
+P-1115,Client 116,CA,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 20,8,Provider 8,5
+P-1116,Client 117,OR,Blue Shield,Provider 20,8,Provider 18,3,Provider 19,3
+P-1117,Client 118,OR,Kaiser,Provider 19,8,Provider 16,3,Provider 20,3
+P-1118,Client 119,AZ,Cigna,Provider 5,10,Provider 2,8,"Dr. Belle Richter, PsyD",3
+P-1119,Client 120,OR,Aetna,Provider 18,5,Provider 13,3,Provider 16,3
+P-1120,Client 121,AZ,Cigna,Provider 2,13,Provider 16,8,Provider 21,8
+P-1121,Client 122,NV,Cigna,Provider 4,13,Provider 5,8,Provider 11,5
+P-1122,Client 123,AZ,Blue Shield,Provider 17,8,Provider 23,5,Provider 25,5
+P-1123,Client 124,CA,Cigna,Provider 5,13,Provider 3,8,Provider 12,8
+P-1124,Client 125,OR,Blue Shield,Provider 13,8,Provider 21,8,Provider 23,8
+P-1125,Client 126,WA,Blue Shield,Provider 9,10,Provider 2,8,Provider 10,8
+P-1126,Client 127,WA,Blue Shield,Provider 2,8,Provider 24,8,Provider 9,5
+P-1127,Client 128,CA,Blue Shield,Provider 3,3,Provider 7,3,Provider 8,3
+P-1128,Client 129,AZ,Aetna,Provider 2,13,Provider 5,8,Provider 14,8
+P-1129,Client 130,CA,UnitedHealthcare,Provider 5,13,Provider 15,8,"Dr. Belle Richter, PsyD",3
+P-1130,Client 131,WA,Kaiser,Provider 2,8,Provider 9,3,Provider 10,3
+P-1131,Client 132,CA,Kaiser,Provider 6,13,Provider 8,8,Provider 7,5
+P-1132,Client 133,WA,Blue Shield,Provider 2,8,Provider 9,3,Provider 10,3
+P-1133,Client 134,WA,Blue Shield,Provider 9,13,Provider 10,13,Provider 2,8
+P-1134,Client 135,CA,UnitedHealthcare,Provider 5,8,Provider 17,8,Provider 6,3
+P-1135,Client 136,OR,Kaiser,Provider 20,8,Provider 13,3,Provider 16,3
+P-1136,Client 137,NV,Aetna,Provider 5,5,Provider 11,3,Provider 18,3
+P-1137,Client 138,WA,Cigna,Provider 16,13,"Dr. Belle Richter, PsyD",8,Provider 18,8
+P-1138,Client 139,WA,Aetna,Provider 16,13,Provider 2,8,Provider 22,8
+P-1139,Client 140,AZ,Blue Shield,Provider 23,10,Provider 17,8,Provider 21,8
+P-1140,Client 141,NV,Blue Shield,"Dr. Belle Richter, PsyD",8,Provider 18,5,No Eligible Match,0
+P-1141,Client 142,NV,Aetna,Provider 5,13,Provider 4,5,Provider 11,3
+P-1142,Client 143,WA,UnitedHealthcare,Provider 16,3,Provider 17,3,Provider 18,3
+P-1143,Client 144,WA,Kaiser,Provider 16,8,Provider 9,5,Provider 2,3
+P-1144,Client 145,WA,Cigna,Provider 16,13,Provider 2,8,Provider 22,8
+P-1145,Client 146,NV,UnitedHealthcare,Provider 11,8,Provider 18,8,Provider 5,5
+P-1146,Client 147,NV,Cigna,Provider 11,10,Provider 4,8,Provider 5,8
+P-1147,Client 148,CA,UnitedHealthcare,Provider 17,8,Provider 5,5,"Dr. Belle Richter, PsyD",3
+P-1148,Client 149,AZ,Blue Shield,Provider 2,13,Provider 14,8,Provider 17,8
+P-1149,Client 150,CA,Kaiser,Provider 6,8,Provider 7,8,Provider 8,8
+P-1150,Client 151,OR,UnitedHealthcare,Provider 18,13,Provider 19,13,Provider 23,10
+P-1151,Client 152,CA,Kaiser,Provider 6,3,Provider 12,3,Provider 20,3
+P-1152,Client 153,NV,Blue Shield,Provider 18,3,No Eligible Match,0,No Eligible Match,0
+P-1153,Client 154,WA,UnitedHealthcare,Provider 16,13,Provider 18,8,Provider 24,8
+P-1154,Client 155,CA,UnitedHealthcare,Provider 20,8,"Dr. Belle Richter, PsyD",3,Provider 5,3
+P-1155,Client 156,AZ,Aetna,Provider 16,8,Provider 23,5,Provider 2,3
+P-1156,Client 157,AZ,Cigna,Provider 16,8,Provider 21,8,"Dr. Belle Richter, PsyD",3
+P-1157,Client 158,AZ,Kaiser,Provider 16,8,Provider 2,3,No Eligible Match,0
+P-1158,Client 159,AZ,Cigna,Provider 2,8,Provider 5,8,Provider 16,8
+P-1159,Client 160,WA,Aetna,Provider 2,13,Provider 16,8,Provider 17,8
+P-1160,Client 161,NV,Cigna,Provider 5,5,"Dr. Belle Richter, PsyD",3,Provider 11,3
+P-1161,Client 162,AZ,UnitedHealthcare,Provider 16,8,"Dr. Belle Richter, PsyD",3,Provider 5,3
+P-1162,Client 163,WA,Cigna,Provider 2,8,Provider 16,8,Provider 22,8
+P-1163,Client 164,NV,Blue Shield,"Dr. Belle Richter, PsyD",8,Provider 18,5,No Eligible Match,0
+P-1164,Client 165,NV,Blue Shield,Provider 18,8,"Dr. Belle Richter, PsyD",3,No Eligible Match,0
+P-1165,Client 166,WA,Aetna,Provider 9,8,Provider 17,8,Provider 2,3
+P-1166,Client 167,CA,Cigna,Provider 3,13,Provider 5,13,Provider 12,8
+P-1167,Client 168,OR,Aetna,Provider 16,8,Provider 22,8,Provider 18,3
+P-1168,Client 169,AZ,Kaiser,Provider 2,8,Provider 16,8,No Eligible Match,0
+P-1169,Client 170,WA,Kaiser,Provider 2,8,Provider 10,3,Provider 16,3
+P-1170,Client 171,CA,Aetna,Provider 14,13,Provider 12,8,Provider 22,8
+P-1171,Client 172,NV,Cigna,Provider 4,8,"Dr. Belle Richter, PsyD",3,Provider 5,3
+P-1172,Client 173,AZ,Blue Shield,Provider 2,8,Provider 14,8,"Dr. Belle Richter, PsyD",3
+P-1173,Client 174,WA,Blue Shield,Provider 2,8,"Dr. Belle Richter, PsyD",3,Provider 10,3
+P-1174,Client 175,OR,Blue Shield,Provider 19,8,Provider 23,8,Provider 18,5
+P-1175,Client 176,OR,Cigna,Provider 13,8,Provider 16,8,Provider 21,8
+P-1176,Client 177,OR,Kaiser,Provider 19,8,Provider 13,5,Provider 16,3
+P-1177,Client 178,OR,Aetna,Provider 18,10,Provider 19,8,Provider 23,8
+P-1178,Client 179,WA,Aetna,Provider 2,8,Provider 9,8,Provider 17,8
+P-1179,Client 180,WA,Kaiser,Provider 2,8,Provider 9,5,Provider 10,3
+P-1180,Client 181,NV,Cigna,Provider 5,5,"Dr. Belle Richter, PsyD",3,Provider 11,3
+P-1181,Client 182,CA,Kaiser,Provider 6,8,Provider 8,8,Provider 20,8
+P-1182,Client 183,NV,UnitedHealthcare,Provider 11,13,Provider 18,8,Provider 5,5
+P-1183,Client 184,OR,Cigna,Provider 18,8,Provider 16,3,Provider 20,3
+P-1184,Client 185,AZ,UnitedHealthcare,Provider 16,8,Provider 5,5,Provider 23,5
+P-1185,Client 186,CA,UnitedHealthcare,Provider 6,8,Provider 15,8,Provider 17,8
+P-1186,Client 187,CA,Blue Shield,Provider 7,8,Provider 8,8,Provider 14,8
+P-1187,Client 188,WA,UnitedHealthcare,Provider 17,8,Provider 18,8,Provider 16,3
+P-1188,Client 189,WA,UnitedHealthcare,Provider 16,8,Provider 17,3,Provider 18,3
+P-1189,Client 190,AZ,UnitedHealthcare,Provider 5,13,Provider 21,8,Provider 23,8
+P-1190,Client 191,OR,Cigna,Provider 21,8,Provider 18,5,"Dr. Belle Richter, PsyD",3
+P-1191,Client 192,CA,Kaiser,Provider 6,13,Provider 8,8,Provider 7,5
+P-1192,Client 193,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1193,Client 194,WA,UnitedHealthcare,Provider 17,8,Provider 18,8,Provider 16,3
+P-1194,Client 195,AZ,Aetna,Provider 2,8,Provider 14,8,Provider 17,8
+P-1195,Client 196,WA,Blue Shield,"Dr. Belle Richter, PsyD",8,Provider 2,8,Provider 18,8
+P-1196,Client 197,CA,Kaiser,Provider 7,13,Provider 6,8,Provider 8,8
+P-1197,Client 198,CA,Cigna,Provider 6,13,Provider 20,8,"Dr. Belle Richter, PsyD",3
+P-1198,Client 199,OR,Aetna,Provider 19,13,Provider 23,13,Provider 13,8
+P-1199,Client 200,CA,UnitedHealthcare,Provider 15,10,Provider 5,8,Provider 6,8
+P-1200,Client 201,OR,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 16,8,Provider 18,8
+P-1201,Client 202,NV,Kaiser,Provider 11,8,Provider 4,5,No Eligible Match,0
+P-1202,Client 203,CA,Blue Shield,Provider 7,8,Provider 8,8,Provider 14,8
+P-1203,Client 204,NV,Aetna,Provider 5,8,Provider 18,8,Provider 11,3
+P-1204,Client 205,NV,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 18,5,Provider 5,3
+P-1205,Client 206,WA,Cigna,"Dr. Belle Richter, PsyD",8,Provider 16,8,Provider 18,5
+P-1206,Client 207,WA,Kaiser,Provider 2,13,Provider 9,8,Provider 10,8
+P-1207,Client 208,NV,Aetna,Provider 18,8,Provider 5,3,Provider 11,3
+P-1208,Client 209,WA,Kaiser,Provider 9,10,Provider 10,8,Provider 2,3
+P-1209,Client 210,WA,Cigna,Provider 16,8,"Dr. Belle Richter, PsyD",3,Provider 2,3
+P-1210,Client 211,OR,Kaiser,Provider 13,8,Provider 16,3,Provider 19,3
+P-1211,Client 212,NV,Aetna,Provider 18,5,Provider 4,3,Provider 5,3
+P-1212,Client 213,CA,Kaiser,Provider 12,8,Provider 7,5,Provider 6,3
+P-1213,Client 214,WA,Blue Shield,Provider 2,3,Provider 9,3,Provider 10,3
+P-1214,Client 215,OR,Cigna,Provider 16,8,Provider 21,8,Provider 13,5
+P-1215,Client 216,CA,UnitedHealthcare,Provider 6,8,Provider 17,8,Provider 5,5
+P-1216,Client 217,OR,Kaiser,Provider 13,8,Provider 16,8,Provider 19,8
+P-1217,Client 218,CA,Aetna,Provider 5,10,Provider 12,8,Provider 15,8
+P-1218,Client 219,OR,Aetna,Provider 16,8,Provider 22,8,Provider 18,3
+P-1219,Client 220,OR,Blue Shield,Provider 13,8,Provider 19,8,Provider 21,8
+P-1220,Client 221,NV,Aetna,Provider 11,8,Provider 4,5,Provider 5,3
+P-1221,Client 222,WA,Cigna,Provider 2,13,Provider 22,13,Provider 10,8
+P-1222,Client 223,OR,Aetna,Provider 13,5,Provider 23,5,Provider 16,3
+P-1223,Client 224,OR,UnitedHealthcare,Provider 16,8,Provider 18,8,Provider 19,8
+P-1224,Client 225,AZ,Blue Shield,Provider 2,8,Provider 17,8,Provider 21,8
+P-1225,Client 226,WA,UnitedHealthcare,Provider 17,8,Provider 18,8,Provider 16,3
+P-1226,Client 227,OR,Aetna,Provider 19,8,Provider 22,8,Provider 13,5
+P-1227,Client 228,NV,Aetna,Provider 4,5,Provider 5,5,Provider 11,3
+P-1228,Client 229,NV,Aetna,Provider 11,13,Provider 18,8,Provider 4,5
+P-1229,Client 230,NV,Cigna,Provider 4,5,Provider 5,5,"Dr. Belle Richter, PsyD",3
+P-1230,Client 231,CA,Blue Shield,"Dr. Belle Richter, PsyD",8,Provider 3,8,Provider 8,8
+P-1231,Client 232,NV,Cigna,Provider 4,10,Provider 11,8,Provider 5,5
+P-1232,Client 233,CA,Blue Shield,"Dr. Belle Richter, PsyD",8,Provider 3,8,Provider 14,8
+P-1233,Client 234,NV,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 18,8,Provider 11,3
+P-1234,Client 235,AZ,Kaiser,Provider 16,8,Provider 2,3,No Eligible Match,0
+P-1235,Client 236,WA,Cigna,Provider 2,8,"Dr. Belle Richter, PsyD",3,Provider 10,3
+P-1236,Client 237,CA,UnitedHealthcare,Provider 8,8,Provider 20,8,"Dr. Belle Richter, PsyD",5
+P-1237,Client 238,NV,Blue Shield,Provider 18,3,No Eligible Match,0,No Eligible Match,0
+P-1238,Client 239,OR,UnitedHealthcare,Provider 20,8,Provider 21,8,Provider 23,5
+P-1239,Client 240,WA,Blue Shield,Provider 9,10,Provider 17,10,Provider 2,8
+P-1240,Client 241,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1241,Client 242,NV,Kaiser,Provider 4,8,Provider 11,5,No Eligible Match,0
+P-1242,Client 243,CA,UnitedHealthcare,Provider 8,8,Provider 20,8,"Dr. Belle Richter, PsyD",5
+P-1243,Client 244,AZ,Blue Shield,Provider 2,13,Provider 14,8,Provider 21,8
+P-1244,Client 245,NV,Aetna,Provider 11,10,Provider 4,8,Provider 5,8
+P-1245,Client 246,NV,Blue Shield,Provider 18,8,"Dr. Belle Richter, PsyD",3,No Eligible Match,0
+P-1246,Client 247,NV,Cigna,Provider 18,13,"Dr. Belle Richter, PsyD",8,Provider 11,8
+P-1247,Client 248,WA,Aetna,Provider 2,13,Provider 22,13,Provider 16,8
+P-1248,Client 249,CA,Aetna,Provider 5,8,Provider 7,8,Provider 12,8
+P-1249,Client 250,NV,UnitedHealthcare,Provider 5,5,"Dr. Belle Richter, PsyD",3,Provider 11,3
+P-1250,Client 251,WA,Kaiser,Provider 10,8,Provider 9,5,Provider 2,3
+P-1251,Client 252,OR,UnitedHealthcare,Provider 16,8,Provider 18,8,Provider 19,8
+P-1252,Client 253,AZ,Cigna,Provider 16,8,Provider 21,8,Provider 5,5
+P-1253,Client 254,NV,Aetna,Provider 5,8,Provider 11,8,Provider 18,8
+P-1254,Client 255,AZ,Cigna,Provider 16,13,"Dr. Belle Richter, PsyD",8,Provider 2,8
+P-1255,Client 256,CA,UnitedHealthcare,Provider 15,13,Provider 5,8,Provider 6,8
+P-1256,Client 257,NV,Cigna,Provider 11,13,Provider 18,8,Provider 4,5
+P-1257,Client 258,AZ,Kaiser,Provider 2,8,Provider 16,8,No Eligible Match,0
+P-1258,Client 259,OR,Blue Shield,Provider 23,10,"Dr. Belle Richter, PsyD",8,Provider 18,8
+P-1259,Client 260,NV,Kaiser,Provider 11,8,Provider 4,5,No Eligible Match,0
+P-1260,Client 261,NV,Aetna,Provider 4,8,Provider 11,5,Provider 5,3
+P-1261,Client 262,WA,Cigna,Provider 2,8,Provider 16,8,Provider 22,8
+P-1262,Client 263,WA,Blue Shield,Provider 2,8,Provider 9,3,Provider 10,3
+P-1263,Client 264,OR,UnitedHealthcare,Provider 16,8,Provider 18,8,Provider 19,8
+P-1264,Client 265,AZ,Cigna,Provider 2,8,Provider 5,5,"Dr. Belle Richter, PsyD",3
+P-1265,Client 266,AZ,Cigna,Provider 5,8,Provider 16,8,"Dr. Belle Richter, PsyD",5
+P-1266,Client 267,WA,Kaiser,Provider 2,8,Provider 9,8,Provider 10,3
+P-1267,Client 268,CA,UnitedHealthcare,Provider 6,8,Provider 15,8,Provider 5,5
+P-1268,Client 269,CA,UnitedHealthcare,Provider 5,8,Provider 20,8,"Dr. Belle Richter, PsyD",3
+P-1269,Client 270,NV,Aetna,Provider 18,8,Provider 5,3,Provider 11,3
+P-1270,Client 271,WA,UnitedHealthcare,Provider 16,8,Provider 17,5,Provider 18,5
+P-1271,Client 272,AZ,UnitedHealthcare,Provider 5,5,Provider 23,5,"Dr. Belle Richter, PsyD",3
+P-1272,Client 273,AZ,Aetna,Provider 2,8,Provider 14,8,Provider 16,8
+P-1273,Client 274,OR,Blue Shield,Provider 20,13,Provider 18,8,Provider 19,8
+P-1274,Client 275,OR,UnitedHealthcare,Provider 23,5,"Dr. Belle Richter, PsyD",3,Provider 16,3
+P-1275,Client 276,NV,Aetna,Provider 5,8,Provider 18,8,Provider 11,3
+P-1276,Client 277,NV,Kaiser,Provider 11,8,Provider 4,5,No Eligible Match,0
+P-1277,Client 278,OR,Kaiser,Provider 19,8,Provider 16,3,Provider 20,3
+P-1278,Client 279,CA,Blue Shield,Provider 3,8,Provider 7,8,Provider 17,8
+P-1279,Client 280,NV,UnitedHealthcare,Provider 11,5,"Dr. Belle Richter, PsyD",3,Provider 5,3
+P-1280,Client 281,OR,Aetna,Provider 19,8,Provider 22,8,Provider 13,5
+P-1281,Client 282,AZ,Blue Shield,"Dr. Belle Richter, PsyD",8,Provider 14,8,Provider 23,5
+P-1282,Client 283,NV,Kaiser,Provider 11,8,Provider 4,5,No Eligible Match,0
+P-1283,Client 284,CA,Blue Shield,Provider 7,10,Provider 3,8,Provider 17,8
+P-1284,Client 285,WA,Aetna,Provider 2,8,Provider 9,8,Provider 22,8
+P-1285,Client 286,CA,Cigna,"Dr. Belle Richter, PsyD",8,Provider 3,8,Provider 8,8
+P-1286,Client 287,WA,Cigna,Provider 2,8,Provider 10,3,Provider 16,3
+P-1287,Client 288,AZ,Aetna,Provider 2,8,Provider 5,8,Provider 16,8
+P-1288,Client 289,AZ,Cigna,Provider 2,8,Provider 16,8,"Dr. Belle Richter, PsyD",3
+P-1289,Client 290,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1290,Client 291,OR,Kaiser,Provider 19,8,Provider 16,3,Provider 20,3
+P-1291,Client 292,NV,Kaiser,Provider 11,5,Provider 4,3,No Eligible Match,0
+P-1292,Client 293,CA,Cigna,Provider 20,13,"Dr. Belle Richter, PsyD",8,Provider 3,8
+P-1293,Client 294,AZ,Aetna,Provider 2,13,Provider 14,8,Provider 16,8
+P-1294,Client 295,NV,UnitedHealthcare,Provider 11,10,Provider 18,10,Provider 5,8
+P-1295,Client 296,NV,Blue Shield,Provider 18,8,"Dr. Belle Richter, PsyD",3,No Eligible Match,0
+P-1296,Client 297,CA,Blue Shield,Provider 7,5,"Dr. Belle Richter, PsyD",3,Provider 3,3
+P-1297,Client 298,NV,UnitedHealthcare,Provider 5,8,Provider 11,8,Provider 18,3
+P-1298,Client 299,OR,Blue Shield,Provider 13,8,Provider 19,8,Provider 21,8
+P-1299,Client 300,CA,Blue Shield,Provider 14,8,Provider 20,8,Provider 17,5
+P-1300,Client 301,AZ,Kaiser,Provider 16,8,Provider 2,3,No Eligible Match,0
+P-1301,Client 302,WA,Blue Shield,Provider 2,8,Provider 10,8,Provider 9,5
+P-1302,Client 303,WA,Cigna,Provider 18,13,Provider 2,8,Provider 10,8
+P-1303,Client 304,CA,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 8,8,Provider 20,8
+P-1304,Client 305,WA,Aetna,Provider 2,8,Provider 16,3,Provider 22,3
+P-1305,Client 306,OR,Aetna,Provider 16,8,Provider 18,8,Provider 22,8
+P-1306,Client 307,WA,UnitedHealthcare,Provider 16,8,Provider 17,8,Provider 24,8
+P-1307,Client 308,WA,Aetna,Provider 16,8,Provider 18,8,Provider 2,3
+P-1308,Client 309,CA,Blue Shield,Provider 3,8,Provider 14,8,Provider 20,8
+P-1309,Client 310,AZ,Kaiser,Provider 16,8,Provider 2,3,No Eligible Match,0
+P-1310,Client 311,NV,UnitedHealthcare,Provider 18,13,"Dr. Belle Richter, PsyD",8,Provider 11,8
+P-1311,Client 312,WA,Aetna,Provider 16,8,Provider 9,5,Provider 17,5
+P-1312,Client 313,OR,UnitedHealthcare,Provider 19,8,Provider 21,8,"Dr. Belle Richter, PsyD",3
+P-1313,Client 314,OR,Aetna,Provider 16,8,Provider 22,8,Provider 18,5
+P-1314,Client 315,WA,Blue Shield,Provider 2,8,Provider 9,8,Provider 17,8
+P-1315,Client 316,WA,Kaiser,Provider 16,8,Provider 9,5,Provider 2,3
+P-1316,Client 317,WA,Aetna,Provider 2,8,Provider 25,8,Provider 9,5
+P-1317,Client 318,WA,Cigna,Provider 2,8,Provider 10,8,Provider 22,8
+P-1318,Client 319,OR,UnitedHealthcare,Provider 16,8,Provider 20,8,Provider 23,8
+P-1319,Client 320,NV,Aetna,Provider 11,8,Provider 18,8,Provider 4,5
+P-1320,Client 321,AZ,Cigna,Provider 16,13,"Dr. Belle Richter, PsyD",8,Provider 2,8
+P-1321,Client 322,OR,Aetna,Provider 16,8,Provider 18,8,Provider 19,8
+P-1322,Client 323,CA,Kaiser,Provider 7,13,Provider 12,13,Provider 6,3
+P-1323,Client 324,OR,UnitedHealthcare,Provider 16,8,Provider 20,8,"Dr. Belle Richter, PsyD",3
+P-1324,Client 325,OR,Kaiser,Provider 16,8,Provider 19,8,Provider 20,8
+P-1325,Client 326,WA,Aetna,Provider 2,13,Provider 16,8,Provider 17,8
+P-1326,Client 327,CA,Cigna,Provider 3,8,Provider 5,8,Provider 12,8
+P-1327,Client 328,AZ,Blue Shield,Provider 2,8,Provider 14,8,Provider 21,8
+P-1328,Client 329,NV,Blue Shield,Provider 18,5,"Dr. Belle Richter, PsyD",3,No Eligible Match,0
+P-1329,Client 330,AZ,Kaiser,Provider 2,8,Provider 16,8,No Eligible Match,0
+P-1330,Client 331,AZ,Aetna,Provider 5,8,Provider 17,8,Provider 25,8
+P-1331,Client 332,NV,Cigna,Provider 11,8,Provider 18,8,Provider 4,5
+P-1332,Client 333,OR,Blue Shield,Provider 18,8,Provider 19,8,Provider 23,5
+P-1333,Client 334,OR,Cigna,Provider 20,8,Provider 21,8,"Dr. Belle Richter, PsyD",3
+P-1334,Client 335,OR,UnitedHealthcare,Provider 18,8,Provider 21,8,Provider 23,5
+P-1335,Client 336,AZ,Kaiser,Provider 2,3,Provider 16,3,No Eligible Match,0
+P-1336,Client 337,WA,Aetna,Provider 2,13,Provider 22,8,Provider 9,5
+P-1337,Client 338,CA,Blue Shield,Provider 3,8,Provider 7,5,Provider 17,5
+P-1338,Client 339,NV,UnitedHealthcare,Provider 5,8,Provider 11,5,Provider 18,5
+P-1339,Client 340,AZ,Aetna,Provider 2,8,Provider 5,8,Provider 23,5
+P-1340,Client 341,WA,Blue Shield,Provider 2,8,Provider 25,8,Provider 9,5
+P-1341,Client 342,NV,Blue Shield,Provider 18,8,"Dr. Belle Richter, PsyD",5,No Eligible Match,0
+P-1342,Client 343,AZ,Aetna,Provider 2,8,Provider 5,8,Provider 14,3
+P-1343,Client 344,CA,Cigna,Provider 12,8,Provider 22,8,Provider 5,5
+P-1344,Client 345,CA,Kaiser,Provider 6,3,Provider 7,3,Provider 8,3
+P-1345,Client 346,CA,UnitedHealthcare,Provider 20,8,"Dr. Belle Richter, PsyD",3,Provider 5,3
+P-1346,Client 347,WA,UnitedHealthcare,Provider 17,5,Provider 18,5,"Dr. Belle Richter, PsyD",3
+P-1347,Client 348,OR,Aetna,Provider 16,8,Provider 22,8,Provider 13,3
+P-1348,Client 349,WA,Cigna,Provider 2,8,Provider 10,8,Provider 16,8
+P-1349,Client 350,CA,Cigna,"Dr. Belle Richter, PsyD",8,Provider 3,8,Provider 6,8
+P-1350,Client 351,CA,Kaiser,Provider 6,8,Provider 20,8,Provider 8,3
+P-1351,Client 352,OR,Blue Shield,Provider 13,8,Provider 23,8,"Dr. Belle Richter, PsyD",3
+P-1352,Client 353,CA,Kaiser,Provider 7,13,Provider 6,8,Provider 8,8
+P-1353,Client 354,NV,UnitedHealthcare,Provider 11,8,Provider 18,8,Provider 5,5
+P-1354,Client 355,OR,Cigna,Provider 13,5,"Dr. Belle Richter, PsyD",3,Provider 16,3
+P-1355,Client 356,WA,Blue Shield,Provider 18,8,Provider 24,8,"Dr. Belle Richter, PsyD",5
+P-1356,Client 357,CA,Kaiser,Provider 12,13,Provider 8,8,Provider 20,8
+P-1357,Client 358,WA,UnitedHealthcare,"Dr. Belle Richter, PsyD",3,Provider 16,3,Provider 17,3
+P-1358,Client 359,WA,Blue Shield,Provider 9,13,Provider 10,13,Provider 2,8
+P-1359,Client 360,NV,Kaiser,Provider 4,5,Provider 11,3,No Eligible Match,0
+P-1360,Client 361,WA,Aetna,Provider 16,13,Provider 2,8,Provider 18,8
+P-1361,Client 362,NV,Aetna,Provider 18,5,Provider 4,3,Provider 5,3
+P-1362,Client 363,AZ,Blue Shield,Provider 23,13,Provider 21,8,Provider 25,8
+P-1363,Client 364,CA,Cigna,Provider 3,13,"Dr. Belle Richter, PsyD",8,Provider 5,8
+P-1364,Client 365,CA,Blue Shield,Provider 3,13,Provider 17,8,Provider 7,5
+P-1365,Client 366,NV,Kaiser,Provider 4,5,Provider 11,3,No Eligible Match,0
+P-1366,Client 367,NV,UnitedHealthcare,Provider 5,5,"Dr. Belle Richter, PsyD",3,Provider 11,3
+P-1367,Client 368,AZ,Cigna,Provider 2,8,Provider 16,8,"Dr. Belle Richter, PsyD",3
+P-1368,Client 369,CA,UnitedHealthcare,Provider 5,8,Provider 6,8,Provider 17,5
+P-1369,Client 370,NV,Blue Shield,"Dr. Belle Richter, PsyD",3,No Eligible Match,0,No Eligible Match,0
+P-1370,Client 371,AZ,Cigna,Provider 2,13,Provider 5,8,Provider 16,8
+P-1371,Client 372,CA,Aetna,Provider 5,8,Provider 15,8,Provider 6,3
+P-1372,Client 373,AZ,UnitedHealthcare,Provider 21,13,Provider 5,8,Provider 16,8
+P-1373,Client 374,OR,UnitedHealthcare,Provider 16,8,Provider 20,8,Provider 18,3
+P-1374,Client 375,OR,Aetna,Provider 19,13,Provider 13,8,Provider 22,8
+P-1375,Client 376,CA,Aetna,Provider 12,8,Provider 22,8,Provider 5,5
+P-1376,Client 377,OR,Kaiser,Provider 20,8,Provider 16,3,Provider 19,3
+P-1377,Client 378,NV,Cigna,Provider 11,8,Provider 4,5,"Dr. Belle Richter, PsyD",3
+P-1378,Client 379,AZ,Aetna,Provider 2,8,Provider 5,5,Provider 23,5
+P-1379,Client 380,OR,UnitedHealthcare,Provider 20,8,Provider 21,8,"Dr. Belle Richter, PsyD",3
+P-1380,Client 381,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1381,Client 382,AZ,UnitedHealthcare,Provider 16,13,Provider 21,8,Provider 23,5
+P-1382,Client 383,AZ,Blue Shield,Provider 23,10,Provider 17,8,Provider 21,8
+P-1383,Client 384,CA,Blue Shield,"Dr. Belle Richter, PsyD",8,Provider 3,8,Provider 8,8
+P-1384,Client 385,OR,Kaiser,Provider 20,13,Provider 16,8,Provider 13,3
+P-1385,Client 386,CA,Aetna,Provider 6,8,Provider 14,8,Provider 15,8
+P-1386,Client 387,NV,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 18,5,Provider 5,3
+P-1387,Client 388,CA,Blue Shield,Provider 14,8,Provider 17,8,Provider 20,8
+P-1388,Client 389,WA,Cigna,Provider 2,13,Provider 10,8,Provider 18,8
+P-1389,Client 390,OR,UnitedHealthcare,Provider 21,8,Provider 18,5,"Dr. Belle Richter, PsyD",3
+P-1390,Client 391,OR,Cigna,Provider 16,8,Provider 21,8,Provider 13,5
+P-1391,Client 392,AZ,UnitedHealthcare,Provider 17,8,Provider 5,5,Provider 23,5
+P-1392,Client 393,WA,UnitedHealthcare,Provider 17,8,Provider 24,8,"Dr. Belle Richter, PsyD",3
+P-1393,Client 394,NV,Kaiser,Provider 11,5,Provider 4,3,No Eligible Match,0
+P-1394,Client 395,AZ,Blue Shield,Provider 23,10,Provider 17,8,Provider 21,8
+P-1395,Client 396,NV,Kaiser,Provider 4,8,Provider 11,5,No Eligible Match,0
+P-1396,Client 397,WA,Cigna,Provider 16,8,Provider 2,3,Provider 10,3
+P-1397,Client 398,OR,Kaiser,Provider 19,8,Provider 13,5,Provider 16,3
+P-1398,Client 399,OR,UnitedHealthcare,Provider 16,8,Provider 20,8,"Dr. Belle Richter, PsyD",3
+P-1399,Client 400,WA,Kaiser,Provider 2,13,Provider 10,8,Provider 9,5
+P-1400,Client 401,OR,Kaiser,Provider 19,13,Provider 13,5,Provider 16,3
+P-1401,Client 402,NV,Aetna,Provider 11,8,Provider 4,5,Provider 5,3
+P-1402,Client 403,CA,Aetna,Provider 5,13,Provider 7,8,Provider 12,8
+P-1403,Client 404,CA,Cigna,Provider 6,13,Provider 8,5,"Dr. Belle Richter, PsyD",3
+P-1404,Client 405,AZ,Cigna,Provider 2,8,Provider 5,8,Provider 16,3
+P-1405,Client 406,WA,Aetna,Provider 2,13,Provider 22,13,Provider 9,8
+P-1406,Client 407,NV,UnitedHealthcare,Provider 11,13,Provider 5,8,Provider 18,8
+P-1407,Client 408,CA,Cigna,Provider 3,8,Provider 5,8,Provider 6,8
+P-1408,Client 409,CA,Cigna,Provider 3,8,Provider 5,8,"Dr. Belle Richter, PsyD",3
+P-1409,Client 410,AZ,Kaiser,Provider 16,13,Provider 2,3,No Eligible Match,0
+P-1410,Client 411,NV,Blue Shield,"Dr. Belle Richter, PsyD",3,No Eligible Match,0,No Eligible Match,0
+P-1411,Client 412,AZ,Aetna,Provider 5,8,Provider 17,8,Provider 25,8
+P-1412,Client 413,CA,UnitedHealthcare,Provider 6,8,Provider 5,3,Provider 8,3
+P-1413,Client 414,WA,UnitedHealthcare,Provider 17,8,Provider 18,8,Provider 16,3
+P-1414,Client 415,NV,Kaiser,Provider 11,8,No Eligible Match,0,No Eligible Match,0
+P-1415,Client 416,OR,Kaiser,Provider 13,3,Provider 16,3,Provider 19,3
+P-1416,Client 417,AZ,Kaiser,Provider 2,3,Provider 16,3,No Eligible Match,0
+P-1417,Client 418,NV,Cigna,Provider 4,5,Provider 5,3,Provider 11,3
+P-1418,Client 419,OR,Aetna,Provider 18,8,Provider 19,8,Provider 23,5
+P-1419,Client 420,AZ,Aetna,Provider 2,8,Provider 14,8,Provider 16,8
+P-1420,Client 421,NV,UnitedHealthcare,Provider 18,10,"Dr. Belle Richter, PsyD",8,Provider 5,8
+P-1421,Client 422,AZ,Blue Shield,Provider 2,8,Provider 14,8,"Dr. Belle Richter, PsyD",3
+P-1422,Client 423,OR,Kaiser,Provider 16,3,Provider 19,3,Provider 20,3
+P-1423,Client 424,AZ,Aetna,Provider 16,8,Provider 23,5,Provider 2,3
+P-1424,Client 425,CA,Cigna,Provider 3,13,"Dr. Belle Richter, PsyD",8,Provider 5,8
+P-1425,Client 426,NV,Kaiser,Provider 4,5,Provider 11,3,No Eligible Match,0
+P-1426,Client 427,WA,Blue Shield,Provider 10,8,Provider 25,8,Provider 9,5
+P-1427,Client 428,NV,Blue Shield,Provider 18,8,"Dr. Belle Richter, PsyD",3,No Eligible Match,0
+P-1428,Client 429,CA,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 8,8,Provider 20,8
+P-1429,Client 430,NV,Cigna,Provider 5,8,"Dr. Belle Richter, PsyD",3,Provider 4,3
+P-1430,Client 431,CA,Cigna,Provider 3,8,Provider 20,8,Provider 22,8
+P-1431,Client 432,OR,Aetna,Provider 13,8,Provider 19,8,Provider 22,8
+P-1432,Client 433,AZ,UnitedHealthcare,Provider 5,8,Provider 21,8,Provider 16,3
+P-1433,Client 434,OR,Cigna,Provider 20,13,"Dr. Belle Richter, PsyD",8,Provider 16,8
+P-1434,Client 435,AZ,UnitedHealthcare,Provider 5,5,Provider 23,5,"Dr. Belle Richter, PsyD",3
+P-1435,Client 436,CA,Cigna,Provider 3,8,Provider 12,8,Provider 5,5
+P-1436,Client 437,OR,Blue Shield,Provider 18,8,Provider 21,8,Provider 19,3
+P-1437,Client 438,WA,Kaiser,Provider 2,8,Provider 9,5,Provider 10,3
+P-1438,Client 439,AZ,Aetna,Provider 2,8,Provider 5,8,Provider 14,8
+P-1439,Client 440,AZ,UnitedHealthcare,Provider 16,8,Provider 21,8,Provider 23,8
+P-1440,Client 441,OR,Aetna,Provider 19,8,Provider 23,8,Provider 18,5
+P-1441,Client 442,WA,Aetna,Provider 2,8,Provider 16,8,Provider 22,8
+P-1442,Client 443,AZ,UnitedHealthcare,Provider 5,8,Provider 16,8,Provider 23,8
+P-1443,Client 444,AZ,Aetna,Provider 2,8,Provider 14,8,Provider 16,8
+P-1444,Client 445,NV,UnitedHealthcare,Provider 18,8,"Dr. Belle Richter, PsyD",5,Provider 5,3
+P-1445,Client 446,NV,Aetna,Provider 5,8,Provider 11,3,Provider 18,3
+P-1446,Client 447,OR,Cigna,Provider 20,13,Provider 16,8,Provider 21,8
+P-1447,Client 448,OR,Blue Shield,Provider 20,8,"Dr. Belle Richter, PsyD",3,Provider 18,3
+P-1448,Client 449,AZ,Aetna,Provider 16,8,Provider 23,5,Provider 2,3
+P-1449,Client 450,NV,Blue Shield,Provider 18,3,No Eligible Match,0,No Eligible Match,0
+P-1450,Client 451,CA,Blue Shield,Provider 3,3,Provider 7,3,Provider 8,3
+P-1451,Client 452,WA,Aetna,Provider 2,13,Provider 9,8,Provider 16,8
+P-1452,Client 453,OR,UnitedHealthcare,Provider 16,8,Provider 18,8,Provider 19,8
+P-1453,Client 454,NV,Cigna,Provider 4,8,Provider 11,5,"Dr. Belle Richter, PsyD",3
+P-1454,Client 455,AZ,UnitedHealthcare,Provider 21,8,Provider 17,5,"Dr. Belle Richter, PsyD",3
+P-1455,Client 456,WA,Cigna,Provider 2,13,Provider 10,8,Provider 22,8
+P-1456,Client 457,CA,Blue Shield,Provider 3,8,Provider 7,5,Provider 17,5
+P-1457,Client 458,WA,Kaiser,Provider 10,13,Provider 9,10,Provider 2,8
+P-1458,Client 459,WA,Cigna,Provider 2,8,Provider 10,3,Provider 16,3
+P-1459,Client 460,WA,Blue Shield,Provider 24,8,Provider 9,5,Provider 17,5
+P-1460,Client 461,OR,UnitedHealthcare,Provider 20,8,Provider 21,8,Provider 16,3
+P-1461,Client 462,OR,Cigna,Provider 13,8,Provider 21,8,Provider 22,8
+P-1462,Client 463,WA,UnitedHealthcare,Provider 16,8,"Dr. Belle Richter, PsyD",3,Provider 17,3
+P-1463,Client 464,CA,Kaiser,Provider 6,8,Provider 20,8,Provider 7,5
+P-1464,Client 465,OR,Kaiser,Provider 13,8,Provider 16,8,Provider 20,8
+P-1465,Client 466,WA,UnitedHealthcare,Provider 16,8,Provider 24,8,Provider 17,5
+P-1466,Client 467,AZ,Kaiser,Provider 16,8,Provider 2,3,No Eligible Match,0
+P-1467,Client 468,NV,Blue Shield,Provider 18,8,"Dr. Belle Richter, PsyD",3,No Eligible Match,0
+P-1468,Client 469,CA,Kaiser,Provider 20,8,Provider 6,3,Provider 8,3
+P-1469,Client 470,NV,Kaiser,Provider 4,5,Provider 11,3,No Eligible Match,0
+P-1470,Client 471,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1471,Client 472,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1472,Client 473,WA,Kaiser,Provider 16,13,Provider 2,8,Provider 9,3
+P-1473,Client 474,OR,Kaiser,Provider 16,8,Provider 20,8,Provider 19,3
+P-1474,Client 475,NV,UnitedHealthcare,"Dr. Belle Richter, PsyD",8,Provider 18,8,Provider 11,3
+P-1475,Client 476,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1476,Client 477,OR,Kaiser,Provider 16,8,Provider 19,8,Provider 13,5
+P-1477,Client 478,AZ,Blue Shield,Provider 14,8,"Dr. Belle Richter, PsyD",5,Provider 23,5
+P-1478,Client 479,CA,Cigna,"Dr. Belle Richter, PsyD",8,Provider 3,8,Provider 12,8
+P-1479,Client 480,AZ,Kaiser,Provider 2,8,Provider 16,3,No Eligible Match,0
+P-1480,Client 481,AZ,Blue Shield,Provider 17,8,Provider 23,5,Provider 25,5
+P-1481,Client 482,OR,Aetna,Provider 16,8,Provider 19,8,Provider 23,8
+P-1482,Client 483,WA,UnitedHealthcare,Provider 16,13,"Dr. Belle Richter, PsyD",3,Provider 17,3
+P-1483,Client 484,OR,Blue Shield,Provider 20,8,Provider 18,3,Provider 19,3
+P-1484,Client 485,NV,Cigna,"Dr. Belle Richter, PsyD",8,Provider 18,5,Provider 4,3
+P-1485,Client 486,OR,Aetna,Provider 18,13,Provider 19,8,Provider 23,5
+P-1486,Client 487,WA,Cigna,Provider 16,8,"Dr. Belle Richter, PsyD",3,Provider 2,3
+P-1487,Client 488,AZ,Aetna,Provider 2,8,Provider 14,8,Provider 16,8
+P-1488,Client 489,AZ,Aetna,Provider 2,8,Provider 5,8,Provider 14,8
+P-1489,Client 490,WA,Cigna,Provider 10,8,Provider 18,5,"Dr. Belle Richter, PsyD",3
+P-1490,Client 491,CA,UnitedHealthcare,Provider 5,8,Provider 6,8,Provider 17,8
+P-1491,Client 492,OR,Blue Shield,Provider 19,8,Provider 21,8,Provider 13,5
+P-1492,Client 493,CA,Kaiser,Provider 12,8,Provider 20,8,Provider 7,5
+P-1493,Client 494,AZ,UnitedHealthcare,Provider 17,13,Provider 21,8,Provider 5,5
+P-1494,Client 495,NV,Cigna,Provider 4,5,Provider 5,5,"Dr. Belle Richter, PsyD",3
+P-1495,Client 496,CA,Kaiser,Provider 6,8,Provider 12,8,Provider 7,5
+P-1496,Client 497,CA,Kaiser,Provider 12,8,Provider 7,5,Provider 6,3
+P-1497,Client 498,AZ,Aetna,Provider 14,13,Provider 2,8,Provider 16,8
+P-1498,Client 499,WA,Blue Shield,Provider 24,13,"Dr. Belle Richter, PsyD",8,Provider 9,5
+P-1499,Client 500,NV,UnitedHealthcare,Provider 11,10,Provider 18,5,"Dr. Belle Richter, PsyD",3
