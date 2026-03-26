@@ -51,12 +51,3 @@ Revenue Protection: Identifies "Unmatched" patients (Clinical Deserts) to calcul
 Provider Retention: Prevents turnover by automating load-balancing and flagging burnout before it happens.
 
 Regulatory Safety: Hard-coded state licensing checks ensure 100% compliance with telehealth laws.
-
-📂 Project Structure
-generate_matching_data.py: Market simulator (500 Patients / 25 Providers).
-
-smart_match_processor.py: The core Compliance & Scoring engine.
-
-burnout_heatmap.py: Geographic & Payer utilization visuals.
-
-network_resiliency_audit.py: The Strategic Recruitment & SPF report generator.
