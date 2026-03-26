@@ -52,4 +52,4 @@ Provider Retention: Prevents turnover by automating load-balancing and flagging 
 
 Regulatory Safety: Hard-coded state licensing checks ensure 100% compliance with telehealth laws.
 
-![Burnout Heatmap](provider_burnout_heatmap.png)
+![Burnout Heatmap](provider_distribution_heatmap.png)
