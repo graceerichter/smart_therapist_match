@@ -1,0 +1,24 @@
+=== CLINICAL OPERATIONS STRATEGY REPORT ===
+
+--- [IMMEDIATE ACTION] BURNOUT MITIGATION ---
+ALERT: Dr. Belle Richter, PsyD is at 124% capacity.
+  -> RECOMMENDATION: Shift new intake from Dr. Belle Richter, PsyD to: Provider 3, Provider 4, Provider 7, Provider 8, Provider 9, Provider 10, Provider 12, Provider 13, Provider 14, Provider 15, Provider 17, Provider 19, Provider 21, Provider 22, Provider 23, Provider 24, Provider 25
+ALERT: Provider 2 is at 380% capacity.
+  -> RECOMMENDATION: Shift new intake from Provider 2 to: Provider 9, Provider 10, Provider 14, Provider 17, Provider 21, Provider 22, Provider 23, Provider 24, Provider 25
+ALERT: Provider 5 is at 176% capacity.
+  -> RECOMMENDATION: Shift new intake from Provider 5 to: Provider 3, Provider 4, Provider 7, Provider 8, Provider 12, Provider 14, Provider 15, Provider 17, Provider 21, Provider 22, Provider 23, Provider 25
+ALERT: Provider 6 is at 104% capacity.
+  -> RECOMMENDATION: Shift new intake from Provider 6 to: Provider 3, Provider 7, Provider 8, Provider 12, Provider 14, Provider 15, Provider 17, Provider 22
+ALERT: Provider 11 is at 112% capacity.
+  -> RECOMMENDATION: Shift new intake from Provider 11 to: Provider 4
+ALERT: Provider 16 is at 280% capacity.
+  -> RECOMMENDATION: Shift new intake from Provider 16 to: Provider 9, Provider 10, Provider 13, Provider 14, Provider 17, Provider 19, Provider 21, Provider 22, Provider 23, Provider 24, Provider 25
+ALERT: Provider 18 is at 148% capacity.
+  -> RECOMMENDATION: Shift new intake from Provider 18 to: Provider 4, Provider 9, Provider 10, Provider 13, Provider 17, Provider 19, Provider 21, Provider 22, Provider 23, Provider 24, Provider 25
+
+--- [STRATEGIC ACTION] RECRUITMENT PRIORITIES ---
+No significant clinical deserts identified.
+
+--- [GROWTH] NETWORK FLEXIBILITY ANALYSIS ---
+Identified 6 'Super-Providers' with 3+ state licenses.
+Suggestion: Prioritize multi-state licensing stipends for providers in high-growth regions.

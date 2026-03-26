@@ -1,0 +1,301 @@
+=== CLINICAL NETWORK ADEQUACY & RISK AUDIT ===
+Analyzing Clinical Specialties, Payer Access, and Regulatory Compliance
+
+AT-RISK PROVIDER: Dr. Belle Richter, PsyD (124% capacity)
+Licenses: CA, OR, WA, AZ, NV | Specialties: Anxiety, Stress Management, Specialized Cuddling
+  Analyzing redundancy for 31 active patients...
+    [!] FRAGILE MATCH: Only one backup exists for Client 13 (Provider 18).
+    [!!!] CRITICAL GAP: Client 16 has NO BACKUP options.
+          Reason: Dr. Belle Richter, PsyD is the ONLY provider for [NV + Blue Shield + Trauma]
+    [!!!] CRITICAL GAP: Client 41 has NO BACKUP options.
+          Reason: Dr. Belle Richter, PsyD is the ONLY provider for [NV + Blue Shield + CBT, DBT]
+    [!!!] CRITICAL GAP: Client 53 has NO BACKUP options.
+          Reason: Dr. Belle Richter, PsyD is the ONLY provider for [WA + Blue Shield + Depression]
+    [!!!] CRITICAL GAP: Client 83 has NO BACKUP options.
+          Reason: Dr. Belle Richter, PsyD is the ONLY provider for [NV + Blue Shield + DBT, CBT]
+    [!!!] CRITICAL GAP: Client 107 has NO BACKUP options.
+          Reason: Dr. Belle Richter, PsyD is the ONLY provider for [WA + Cigna + Eating Disorders]
+    [!] FRAGILE MATCH: Only one backup exists for Client 141 (Provider 18).
+    [!] FRAGILE MATCH: Only one backup exists for Client 164 (Provider 18).
+    [!] FRAGILE MATCH: Only one backup exists for Client 205 (Provider 18).
+    [!] FRAGILE MATCH: Only one backup exists for Client 234 (Provider 18).
+    [!!!] CRITICAL GAP: Client 358 has NO BACKUP options.
+          Reason: Dr. Belle Richter, PsyD is the ONLY provider for [WA + UnitedHealthcare + Trauma]
+    [!!!] CRITICAL GAP: Client 370 has NO BACKUP options.
+          Reason: Dr. Belle Richter, PsyD is the ONLY provider for [NV + Blue Shield + Eating Disorders, DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 387 (Provider 18).
+    [!!!] CRITICAL GAP: Client 411 has NO BACKUP options.
+          Reason: Dr. Belle Richter, PsyD is the ONLY provider for [NV + Blue Shield + Trauma, CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 475 (Provider 18).
+    [!] FRAGILE MATCH: Only one backup exists for Client 485 (Provider 18).
+------------------------------
+AT-RISK PROVIDER: Provider 2 (380% capacity)
+Licenses: AZ, WA | Specialties: Trauma, LGBTQ+, CBT, DBT
+  Analyzing redundancy for 95 active patients...
+    [!!!] CRITICAL GAP: Client 27 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + LGBTQ+, Trauma]
+    [!!!] CRITICAL GAP: Client 34 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + Eating Disorders, LGBTQ+]
+    [!] FRAGILE MATCH: Only one backup exists for Client 37 (Provider 18).
+    [!] FRAGILE MATCH: Only one backup exists for Client 42 (Provider 16).
+    [!] FRAGILE MATCH: Only one backup exists for Client 48 (Provider 16).
+    [!] FRAGILE MATCH: Only one backup exists for Client 76 (Provider 9).
+    [!] FRAGILE MATCH: Only one backup exists for Client 85 (Provider 16).
+    [!!!] CRITICAL GAP: Client 131 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Kaiser + DBT]
+    [!!!] CRITICAL GAP: Client 133 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Blue Shield + CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 169 (Provider 16).
+    [!!!] CRITICAL GAP: Client 170 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Kaiser + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 173 (Provider 14).
+    [!!!] CRITICAL GAP: Client 174 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Blue Shield + CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 180 (Provider 9).
+    [!!!] CRITICAL GAP: Client 193 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + LGBTQ+]
+    [!!!] CRITICAL GAP: Client 214 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Blue Shield + Depression]
+    [!!!] CRITICAL GAP: Client 236 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Cigna + DBT]
+    [!!!] CRITICAL GAP: Client 241 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + Eating Disorders, Trauma]
+    [!] FRAGILE MATCH: Only one backup exists for Client 258 (Provider 16).
+    [!!!] CRITICAL GAP: Client 263 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Blue Shield + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 265 (Provider 5).
+    [!] FRAGILE MATCH: Only one backup exists for Client 267 (Provider 9).
+    [!!!] CRITICAL GAP: Client 287 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Cigna + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 289 (Provider 16).
+    [!!!] CRITICAL GAP: Client 290 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + Trauma]
+    [!!!] CRITICAL GAP: Client 305 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Aetna + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 330 (Provider 16).
+    [!!!] CRITICAL GAP: Client 336 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + Family Therapy]
+    [!] FRAGILE MATCH: Only one backup exists for Client 343 (Provider 5).
+    [!] FRAGILE MATCH: Only one backup exists for Client 368 (Provider 16).
+    [!!!] CRITICAL GAP: Client 381 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 405 (Provider 5).
+    [!!!] CRITICAL GAP: Client 417 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + Eating Disorders]
+    [!] FRAGILE MATCH: Only one backup exists for Client 422 (Provider 14).
+    [!] FRAGILE MATCH: Only one backup exists for Client 438 (Provider 9).
+    [!!!] CRITICAL GAP: Client 459 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [WA + Cigna + DBT]
+    [!!!] CRITICAL GAP: Client 471 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + Family Therapy, DBT]
+    [!!!] CRITICAL GAP: Client 472 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + LGBTQ+, Family Therapy]
+    [!!!] CRITICAL GAP: Client 476 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + DBT]
+    [!!!] CRITICAL GAP: Client 480 has NO BACKUP options.
+          Reason: Provider 2 is the ONLY provider for [AZ + Kaiser + LGBTQ+]
+------------------------------
+AT-RISK PROVIDER: Provider 5 (176% capacity)
+Licenses: CA, AZ, NV | Specialties: Family Therapy, Trauma, DBT
+  Analyzing redundancy for 44 active patients...
+    [!!!] CRITICAL GAP: Client 29 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + UnitedHealthcare + DBT]
+    [!!!] CRITICAL GAP: Client 46 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + UnitedHealthcare + Trauma]
+    [!] FRAGILE MATCH: Only one backup exists for Client 56 (Provider 17).
+    [!] FRAGILE MATCH: Only one backup exists for Client 112 (Provider 20).
+    [!] FRAGILE MATCH: Only one backup exists for Client 119 (Provider 2).
+    [!] FRAGILE MATCH: Only one backup exists for Client 130 (Provider 15).
+    [!] FRAGILE MATCH: Only one backup exists for Client 135 (Provider 17).
+    [!!!] CRITICAL GAP: Client 137 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + Aetna + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 142 (Provider 4).
+    [!!!] CRITICAL GAP: Client 161 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + Cigna + DBT]
+    [!!!] CRITICAL GAP: Client 181 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + Cigna + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 204 (Provider 18).
+    [!!!] CRITICAL GAP: Client 250 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + UnitedHealthcare + Trauma]
+    [!] FRAGILE MATCH: Only one backup exists for Client 269 (Provider 20).
+    [!] FRAGILE MATCH: Only one backup exists for Client 272 (Provider 23).
+    [!] FRAGILE MATCH: Only one backup exists for Client 276 (Provider 18).
+    [!] FRAGILE MATCH: Only one backup exists for Client 298 (Provider 11).
+    [!!!] CRITICAL GAP: Client 367 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + UnitedHealthcare + Depression, DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 372 (Provider 15).
+    [!!!] CRITICAL GAP: Client 430 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + Cigna + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 433 (Provider 21).
+    [!] FRAGILE MATCH: Only one backup exists for Client 435 (Provider 23).
+    [!!!] CRITICAL GAP: Client 446 has NO BACKUP options.
+          Reason: Provider 5 is the ONLY provider for [NV + Aetna + DBT]
+------------------------------
+AT-RISK PROVIDER: Provider 6 (104% capacity)
+Licenses: CA | Specialties: Eating Disorders, LGBTQ+, Depression
+  Analyzing redundancy for 26 active patients...
+    [!!!] CRITICAL GAP: Client 1 has NO BACKUP options.
+          Reason: Provider 6 is the ONLY provider for [CA + Kaiser + Depression]
+    [!] FRAGILE MATCH: Only one backup exists for Client 22 (Provider 20).
+    [!!!] CRITICAL GAP: Client 26 has NO BACKUP options.
+          Reason: Provider 6 is the ONLY provider for [CA + Cigna + Depression]
+    [!] FRAGILE MATCH: Only one backup exists for Client 69 (Provider 20).
+    [!!!] CRITICAL GAP: Client 152 has NO BACKUP options.
+          Reason: Provider 6 is the ONLY provider for [CA + Kaiser + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 198 (Provider 20).
+    [!!!] CRITICAL GAP: Client 345 has NO BACKUP options.
+          Reason: Provider 6 is the ONLY provider for [CA + Kaiser + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 351 (Provider 20).
+    [!] FRAGILE MATCH: Only one backup exists for Client 404 (Provider 8).
+    [!!!] CRITICAL GAP: Client 413 has NO BACKUP options.
+          Reason: Provider 6 is the ONLY provider for [CA + UnitedHealthcare + Depression]
+------------------------------
+AT-RISK PROVIDER: Provider 11 (112% capacity)
+Licenses: NV | Specialties: LGBTQ+, Eating Disorders, Family Therapy, CBT
+  Analyzing redundancy for 28 active patients...
+    [!] FRAGILE MATCH: Only one backup exists for Client 17 (Provider 4).
+    [!!!] CRITICAL GAP: Client 93 has NO BACKUP options.
+          Reason: Provider 11 is the ONLY provider for [NV + UnitedHealthcare + Eating Disorders]
+    [!] FRAGILE MATCH: Only one backup exists for Client 202 (Provider 4).
+    [!] FRAGILE MATCH: Only one backup exists for Client 221 (Provider 4).
+    [!] FRAGILE MATCH: Only one backup exists for Client 260 (Provider 4).
+    [!] FRAGILE MATCH: Only one backup exists for Client 277 (Provider 4).
+    [!!!] CRITICAL GAP: Client 280 has NO BACKUP options.
+          Reason: Provider 11 is the ONLY provider for [NV + UnitedHealthcare + CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 283 (Provider 4).
+    [!!!] CRITICAL GAP: Client 292 has NO BACKUP options.
+          Reason: Provider 11 is the ONLY provider for [NV + Kaiser + LGBTQ+]
+    [!] FRAGILE MATCH: Only one backup exists for Client 378 (Provider 4).
+    [!!!] CRITICAL GAP: Client 394 has NO BACKUP options.
+          Reason: Provider 11 is the ONLY provider for [NV + Kaiser + LGBTQ+, DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 402 (Provider 4).
+    [!!!] CRITICAL GAP: Client 415 has NO BACKUP options.
+          Reason: Provider 11 is the ONLY provider for [NV + Kaiser + Family Therapy]
+    [!] FRAGILE MATCH: Only one backup exists for Client 500 (Provider 18).
+------------------------------
+AT-RISK PROVIDER: Provider 16 (280% capacity)
+Licenses: WA, OR, AZ | Specialties: Anxiety, CBT, Depression
+  Analyzing redundancy for 70 active patients...
+    [!!!] CRITICAL GAP: Client 8 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [AZ + Kaiser + Depression]
+    [!!!] CRITICAL GAP: Client 36 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [WA + UnitedHealthcare + CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 47 (Provider 18).
+    [!] FRAGILE MATCH: Only one backup exists for Client 54 (Provider 20).
+    [!] FRAGILE MATCH: Only one backup exists for Client 55 (Provider 20).
+    [!] FRAGILE MATCH: Only one backup exists for Client 62 (Provider 21).
+    [!!!] CRITICAL GAP: Client 143 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [WA + UnitedHealthcare + DBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 144 (Provider 9).
+    [!] FRAGILE MATCH: Only one backup exists for Client 156 (Provider 23).
+    [!] FRAGILE MATCH: Only one backup exists for Client 157 (Provider 21).
+    [!!!] CRITICAL GAP: Client 158 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [AZ + Kaiser + Anxiety]
+    [!!!] CRITICAL GAP: Client 162 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [AZ + UnitedHealthcare + CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 168 (Provider 22).
+    [!!!] CRITICAL GAP: Client 189 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [WA + UnitedHealthcare + DBT, CBT]
+    [!!!] CRITICAL GAP: Client 210 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [WA + Cigna + Depression]
+    [!] FRAGILE MATCH: Only one backup exists for Client 219 (Provider 22).
+    [!!!] CRITICAL GAP: Client 235 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [AZ + Kaiser + Family Therapy, Anxiety]
+    [!!!] CRITICAL GAP: Client 301 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [AZ + Kaiser + Anxiety, Eating Disorders]
+    [!] FRAGILE MATCH: Only one backup exists for Client 308 (Provider 18).
+    [!!!] CRITICAL GAP: Client 310 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [AZ + Kaiser + Depression]
+    [!] FRAGILE MATCH: Only one backup exists for Client 316 (Provider 9).
+    [!] FRAGILE MATCH: Only one backup exists for Client 324 (Provider 20).
+    [!] FRAGILE MATCH: Only one backup exists for Client 348 (Provider 22).
+    [!] FRAGILE MATCH: Only one backup exists for Client 374 (Provider 20).
+    [!!!] CRITICAL GAP: Client 397 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [WA + Cigna + Depression]
+    [!] FRAGILE MATCH: Only one backup exists for Client 399 (Provider 20).
+    [!!!] CRITICAL GAP: Client 410 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [AZ + Kaiser + Anxiety, Depression]
+    [!!!] CRITICAL GAP: Client 423 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [OR + Kaiser + LGBTQ+]
+    [!] FRAGILE MATCH: Only one backup exists for Client 424 (Provider 23).
+    [!] FRAGILE MATCH: Only one backup exists for Client 449 (Provider 23).
+    [!!!] CRITICAL GAP: Client 463 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [WA + UnitedHealthcare + CBT, Trauma]
+    [!!!] CRITICAL GAP: Client 467 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [AZ + Kaiser + Depression, Family Therapy]
+    [!] FRAGILE MATCH: Only one backup exists for Client 473 (Provider 2).
+    [!] FRAGILE MATCH: Only one backup exists for Client 474 (Provider 20).
+    [!!!] CRITICAL GAP: Client 483 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [WA + UnitedHealthcare + Depression, CBT]
+    [!!!] CRITICAL GAP: Client 487 has NO BACKUP options.
+          Reason: Provider 16 is the ONLY provider for [WA + Cigna + Depression]
+------------------------------
+AT-RISK PROVIDER: Provider 18 (148% capacity)
+Licenses: WA, NV, OR | Specialties: Family Therapy, Anxiety, LGBTQ+
+  Analyzing redundancy for 37 active patients...
+    [!!!] CRITICAL GAP: Client 49 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [OR + Aetna + LGBTQ+]
+    [!!!] CRITICAL GAP: Client 61 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + LGBTQ+, Depression]
+    [!] FRAGILE MATCH: Only one backup exists for Client 68 (Provider 21).
+    [!!!] CRITICAL GAP: Client 120 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [OR + Aetna + LGBTQ+]
+    [!!!] CRITICAL GAP: Client 153 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + CBT]
+    [!!!] CRITICAL GAP: Client 165 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + LGBTQ+, CBT]
+    [!!!] CRITICAL GAP: Client 184 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [OR + Cigna + Family Therapy]
+    [!!!] CRITICAL GAP: Client 208 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Aetna + Anxiety]
+    [!!!] CRITICAL GAP: Client 212 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Aetna + Anxiety]
+    [!!!] CRITICAL GAP: Client 238 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + Depression]
+    [!!!] CRITICAL GAP: Client 246 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + Family Therapy]
+    [!!!] CRITICAL GAP: Client 270 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Aetna + Anxiety]
+    [!!!] CRITICAL GAP: Client 296 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + Family Therapy]
+    [!!!] CRITICAL GAP: Client 329 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + LGBTQ+, CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 342 (Dr. Belle Richter, PsyD).
+    [!!!] CRITICAL GAP: Client 362 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Aetna + Anxiety]
+    [!!!] CRITICAL GAP: Client 428 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + LGBTQ+, Depression]
+    [!] FRAGILE MATCH: Only one backup exists for Client 437 (Provider 21).
+    [!] FRAGILE MATCH: Only one backup exists for Client 445 (Dr. Belle Richter, PsyD).
+    [!!!] CRITICAL GAP: Client 450 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + DBT]
+    [!!!] CRITICAL GAP: Client 468 has NO BACKUP options.
+          Reason: Provider 18 is the ONLY provider for [NV + Blue Shield + Family Therapy, Eating Disorders]
+------------------------------
+AT-RISK PROVIDER: Provider 20 (80% capacity)
+Licenses: OR, CA | Specialties: Eating Disorders, Anxiety, CBT
+  Analyzing redundancy for 20 active patients...
+    [!!!] CRITICAL GAP: Client 44 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [OR + Blue Shield + CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 71 (Provider 21).
+    [!!!] CRITICAL GAP: Client 117 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [OR + Blue Shield + CBT]
+    [!!!] CRITICAL GAP: Client 136 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [OR + Kaiser + Eating Disorders]
+    [!!!] CRITICAL GAP: Client 155 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [CA + UnitedHealthcare + CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 334 (Provider 21).
+    [!!!] CRITICAL GAP: Client 346 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [CA + UnitedHealthcare + CBT]
+    [!!!] CRITICAL GAP: Client 377 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [OR + Kaiser + Eating Disorders]
+    [!] FRAGILE MATCH: Only one backup exists for Client 380 (Provider 21).
+    [!] FRAGILE MATCH: Only one backup exists for Client 385 (Provider 16).
+    [!!!] CRITICAL GAP: Client 448 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [OR + Blue Shield + CBT]
+    [!] FRAGILE MATCH: Only one backup exists for Client 461 (Provider 21).
+    [!!!] CRITICAL GAP: Client 469 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [CA + Kaiser + CBT, DBT]
+    [!!!] CRITICAL GAP: Client 484 has NO BACKUP options.
+          Reason: Provider 20 is the ONLY provider for [OR + Blue Shield + CBT]
+------------------------------

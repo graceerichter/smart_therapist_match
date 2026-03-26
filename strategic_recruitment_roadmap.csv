@@ -1,0 +1,9 @@
+Risk_Level,state,insurance,needs,Patient_Volume
+FRAGILE: Single Match Only,NV,Blue Shield,CBT,1
+FRAGILE: Single Match Only,NV,Blue Shield,"CBT, DBT",1
+FRAGILE: Single Match Only,NV,Blue Shield,DBT,1
+FRAGILE: Single Match Only,NV,Blue Shield,Depression,1
+FRAGILE: Single Match Only,NV,Blue Shield,"Eating Disorders, DBT",1
+FRAGILE: Single Match Only,NV,Blue Shield,Trauma,1
+FRAGILE: Single Match Only,NV,Blue Shield,"Trauma, CBT",1
+FRAGILE: Single Match Only,NV,Kaiser,Family Therapy,1
